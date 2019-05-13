@@ -1,0 +1,13 @@
+body {
+  font-family: 'Baloo Bhai', cursive;
+}
+/* Navbar  */
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+.navbar {
+  background-image: linear-gradient(to right, #1758ef, #1758ef);
+  padding: 0 !important;
+}
