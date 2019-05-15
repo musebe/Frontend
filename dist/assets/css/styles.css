@@ -1,5 +1,5 @@
 body {
-    padding-top: 3.5rem;
+    /* padding-top: 3.5rem; */
     font-size: 14px;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
@@ -37,6 +37,18 @@ h6 {
     font-size: 1.6rem;
 }
 
+.hiw-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:#17406E;
+    padding-left: 5px;
+}
+
+.hiw-text:hover {
+    color: rgba(110, 69, 23, 0.8);
+}
+
+
 
 /*buttons*/
 
@@ -44,7 +56,7 @@ h6 {
     color: #F2F5FA;
     background-color: #17406E;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     font-size: 16px;
     padding: 12px 20px;
     display: inline-block;
@@ -52,7 +64,7 @@ h6 {
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    margin: 0 5px;
+    margin: 0 10px;
     /*font-weight: 600;*/
     text-transform: uppercase;
     cursor: pointer;
@@ -77,7 +89,7 @@ h6 {
 }
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
-    background-color: rgba(162, 178, 197, 0.5);
+    background-color: rgba(110, 69, 23, 0.8);
     color: #F2F5FA;
 }
 
@@ -263,6 +275,7 @@ body a:hover {
 .dropdown-item {
     /*font-weight: 600;*/
     font-size: 14px;
+    font-weight: bolder;
     color: #011936;
 }
 
@@ -306,8 +319,7 @@ body a:hover {
 
 .jumbotron {
     background-color: #F2F5FA;
-    height: 700px;
-    padding: 0 0 30px;
+    height: 660px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -334,16 +346,18 @@ body a:hover {
 
 .slide-box .typer-holder {
     height: 300px;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
 .slide-box .banner-img {
-    background-image: url("../img/budget.png");
-    height: 512px;
-    margin: 50px 20px;
+    background-image: url("../img/man-chatting-walking.jpg");
+    height: 600px;
+    width: 800px;
+    /* margin: 0px 10px; */
+    float: left;
     background-repeat: no-repeat;
     filter: alpha(opacity=40);
-    opacity: 0.4;
+    opacity: 1;
 }
 
 .slide-box .text .element {
@@ -351,15 +365,20 @@ body a:hover {
 }
 
 .slide-box .text h1 {
-    /*font-size: 3rem;*/
+    font-size: 2.6rem;
     line-height: 1.30312em;
+    color: #171819;
+    padding-bottom: 15px;
     /*letter-spacing: 0.1rem;*/
     /*font-weight: 700;*/
 }
 
 .slide-box .text p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1.50312em;
+    color: #171819;
+    text-align: justify;
+    padding-bottom: 15px
     /*font-weight: 700;*/
 }
 
