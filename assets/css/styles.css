@@ -3,7 +3,7 @@ body {
     font-size: 14px;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #011936;
+    color: #76797E;
     margin: 0;
 }
 
@@ -41,8 +41,8 @@ h6 {
 /*buttons*/
 
 .btn-brand-accent {
-    color: #011936;
-    background-color: #ff9800;
+    color: #F2F5FA;
+    background-color: #17406E;
     border: none;
     border-radius: 4px;
     font-size: 16px;
@@ -60,7 +60,7 @@ h6 {
 
 .btn-brand-white {
     color: #000003;
-    background-color: #E6FEFF;
+    background-color: #F2F5FA;
     border: 1px solid transparent;
     border-radius: 4px;
     font-size: 16px;
@@ -77,24 +77,24 @@ h6 {
 }
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
-    background-color: rgba(255, 176, 19, 0.8);
-    color: #ffffff;
+    background-color: rgba(162, 178, 197, 0.5);
+    color: #F2F5FA;
 }
 
-.btn-brand-white:hover, .btn-brand-white[disabled]:hover {
-    color: #011936;
+/* .btn-brand-white:hover, .btn-brand-white[disabled]:hover {
+    color: red;
     background-color: rgba(217, 220, 214, 0.6);
 }
 
 .btn-brand-accent:disabled {
     background-color: rgba(54,  30,  1, 0.8);
     color: #ffffff;
-}
+} */
 
-.btn-brand-white:disabled {
-    color: #011936;
+/* .btn-brand-white:disabled {
+    color: red;
     background-color: rgba(217, 220, 214, 0.6);
-}
+} */
 
 
 @media (max-width: 1200px) {
@@ -250,7 +250,7 @@ body a:hover {
     border: none;
     font-size: 1.2rem;
     font-style: normal;
-    color: #011936;
+    color:#76797E;
 }
 
 
@@ -267,12 +267,12 @@ body a:hover {
 }
 
 .dropdown-item:hover {
-    color: rgba(0,0,0,.5);
+    color: rgba(23,64,110, 1);
     background-color: transparent;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: rgba(0,0,0,.5);
+    color: rgba(23,64,110, 1);
     /*font-weight: 600;*/
 }
 
@@ -282,7 +282,7 @@ body a:hover {
 }
 
 .bg-light {
-    background-color: #E6FEFF !important;
+    background-color: #FFF !important;
     padding: 1rem 0.5rem;
 }
 
@@ -305,7 +305,7 @@ body a:hover {
 }
 
 .jumbotron {
-    background-color: #E6FEFF;
+    background-color: #F2F5FA;
     height: 700px;
     padding: 0 0 30px;
     background-size: cover;
