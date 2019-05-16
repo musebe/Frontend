@@ -381,7 +381,7 @@ body a:hover {
 .slide-box .text h1 {
     font-size: 2rem;
     line-height: 1em;
-    color: #76797E;
+    color: rgba(23, 24, 25, 0.8);
     padding-top: 0px;
     padding-bottom: 20px;
     /*letter-spacing: 0.1rem;*/
