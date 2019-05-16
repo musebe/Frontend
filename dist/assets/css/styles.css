@@ -558,6 +558,9 @@ body a:hover {
       color: #17406E;
   }
 
+  /* Solutions Section
+--------------------------------*/
+
 @media (max-width: 1200px) {
     .slide-box .text {
         padding: 15px 120px 10px 20px;
@@ -595,6 +598,7 @@ body a:hover {
         line-height: 1.20312em;
         /*font-weight: 700;*/
         margin-top: 0;
+        
     }
 
 }
@@ -671,8 +675,8 @@ body a:hover {
 }
 
 .features {
-    background-color: #011936;
-    color: #ffffff;
+    background-color: #17406E;
+    color: #F2F5FA;
 }
 
 .features .section-title {
@@ -680,21 +684,20 @@ body a:hover {
 }
 
 .features .section-title {
-    color: #ffffff;
-    font-weight: 700;
+    color: #F2F5FA;
+    font-weight: 600;
     font-style: normal;
     text-align: center;
-    margin-bottom: 24px;
-    margin-top: 0;
 }
 
 .features .txt p {
-    font-size: 18px;
+    font-size: 1rem;
     font-style: normal;
     line-height: 1.33;
     font-weight: 600;
-    margin: 10px auto;
-    color: #fff;
+    margin: 10px 5px;
+    color: #F2F5FA;
+   
 }
 
 .features .txt p.sub {
@@ -710,16 +713,12 @@ body a:hover {
     text-align: left;
 }
 
+
 @media (max-width: 480px) {
 
     .features p {
         font-size: 20px;
-    }
-
-    .features .section-title {
-        /*margin-left: 15px;*/
-        /*font-size: 25px;*/
-
+        
     }
 
     .features .step {
@@ -729,7 +728,7 @@ body a:hover {
 }
 
 .features .step .icon img {
-    width: 128px;
+    width: 200px;
     height: 128px;
     margin: 20px 25px;
 }
