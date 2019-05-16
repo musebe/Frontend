@@ -329,7 +329,7 @@ body a:hover {
 
 .jumbotron {
     background-color: #F2F5FA;
-    height: 660px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -368,7 +368,6 @@ body a:hover {
     background-image: url("../img/man-chatting-walking.jpg");
     height: 600px;
     width: 800px;
-    /* margin: 0px 10px; */
     float: left;
     background-repeat: no-repeat;
     filter: alpha(opacity=40);
@@ -380,10 +379,11 @@ body a:hover {
 }
 
 .slide-box .text h1 {
-    font-size: 2.6rem;
-    line-height: 1.30312em;
-    color: #171819;
-    padding-bottom: 15px;
+    font-size: 2rem;
+    line-height: 1em;
+    color: #76797E;
+    padding-top: 0px;
+    padding-bottom: 20px;
     /*letter-spacing: 0.1rem;*/
     /*font-weight: 700;*/
 }
@@ -394,9 +394,11 @@ body a:hover {
     color: #171819;
     text-align: justify;
     padding-bottom: 15px
-    /*font-weight: 700;*/
 }
 
+.slide-box .text h1 span {
+    color: #17406E;
+}
 /* Sections Header
 --------------------------------*/
 
@@ -557,9 +559,6 @@ body a:hover {
   }
 
 @media (max-width: 1200px) {
-    .slide-box, .slide-box .inner {
-    }
-
     .slide-box .text {
         padding: 15px 120px 10px 20px;
         margin-top: 120px;
@@ -579,9 +578,6 @@ body a:hover {
 }
 
 @media (max-width: 991px) {
-
-    .slide-box, .slide-box .inner {
-    }
 
     .slide-box .text {
         padding: 15px 100px 10px 20px;
@@ -604,8 +600,6 @@ body a:hover {
 }
 
 @media (max-width: 767px) {
-    .slide-box, .slide-box .inner {
-    }
 
     .slide-box .text {
         padding: 10px 50px;
@@ -621,7 +615,7 @@ body a:hover {
     }
 
     .slide-box .text h1 {
-        font-size: 2.2rem;
+        font-size: 1rem;
         line-height: 1.20312em;
         font-weight: 700;
     }
@@ -633,10 +627,6 @@ body a:hover {
 }
 
 @media (max-width: 480px) {
-
-
-    .slide-box, .slide-box .inner {
-    }
 
     .slide-box .text {
         padding: 10px 10px;
@@ -660,9 +650,6 @@ body a:hover {
     }
 }
 
-.about-us {
-
-}
 
 .about-us .about-img {
     width: 500px;
