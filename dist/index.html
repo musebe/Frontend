@@ -51,7 +51,7 @@
       class="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-fixed-top"
     >
       <div class="container-fluid d-flex justify-content-between mx-md-5">
-        <a class="navbar-brand logo" href="./index.html">
+        <a class="navbar-brand logo" href="#home">
           <img src="assets/img/abdteq-temp-logo-crop-white.png" 
                style="height: 50px; padding-left: 100px"
                class="img-fluid img"
@@ -80,7 +80,7 @@
 
           <ul class="navbar-nav">
             <li class="nav-item mx-4">
-              <a class="nav-link" href="assets/template.html">PRODUCT</a>
+              <a class="nav-link" href="#product">PRODUCT</a>
             </li>
             <li class="nav-item dropdown mx-4">
               <a
@@ -119,15 +119,16 @@
             </li>
             <li class="nav-item mx-4">
               <a
+                id="login-button"
                 class="nav-link"
-                href="assets/template.html">
+                href="#home">
                 LOGIN
               </a>
             </li>
             <li class="nav-item mx-4">
               <button
                 class="btn btn-brand-accent"
-                href="assets/template.html"
+                href="#home"
               >
                 Get Started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
               </button>
@@ -138,41 +139,43 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="col-md-12 slide-box">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="typer-holder text">
-                <h1>
-                  Attend to your customers<br />
-                  where they are, 24/7
-                </h1>
-                <p>
-                  We use <span>natural language understanding</span> to interact 
-                  with your customers and take care of your most important business
-                  logics, <span>even outside your operating hours.</span>
-                </p>
-                <a href="assets/template.html">
-                  <button class="btn btn-brand-accent">
-                    Get started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
-                  </button>
-                </a>
-                <a href="assets/template.html">
-                  <img src="assets/img/play-btn-4.webp"/>
-                </a>
-                <a class="hiw-text" href="assets/template.html">
-                  How it works
-                </a>
+    <section id="home">
+        <div class="jumbotron">
+            <div class="col-md-12 slide-box">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="typer-holder text">
+                      <h1>
+                        Attend to your customers<br />
+                        where they are, 24/7
+                      </h1>
+                      <p>
+                        We use <span>natural language understanding</span> to interact 
+                        with your customers and take care of your most important business
+                        logics, <span>even outside your operating hours.</span>
+                      </p>
+                      <a href="assets/template.html">
+                        <button class="btn btn-brand-accent">
+                          Get started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+                        </button>
+                      </a>
+                      <a href="assets/template.html">
+                        <img src="assets/img/play-btn-4.webp"/>
+                      </a>
+                      <a class="hiw-text" href="assets/template.html">
+                        How it works
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block">
+                    <div class="banner-img"></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 d-none d-md-block">
-              <div class="banner-img"></div>
-            </div>
           </div>
-        </div>
-      </div>
-    </div>
+    </section>
 
     <!--==========================
       Product Section
