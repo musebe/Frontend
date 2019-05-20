@@ -8,18 +8,15 @@
     />
     <meta name="description" content="" />
     <meta name="author" content="" />
+    <!-- Todo: add favicon -->
     <!--<link rel="icon" href="../../../../favicon.ico">-->
-
-    <title>Welcome to Kauri</title>
-    <!--<base href="/">-->
-
+    <title>Abdteq Landing Page</title>
     <meta name="description" content="" />
     <meta name="keywords" content="" />
     <meta name="robots" content="index, follow" />
-    <meta name="author" content="Kauri" />
-    <meta name="theme-color" content="#011936" />
+    <meta name="author" content="Abdteq" />
+    <meta name="theme-color" content="#17406E" />
     <link rel="canonical" href="" />
-
     <link rel="stylesheet" href=assets/css/animate.min.css>
     <!-- Bootstrap core CSS -->
     <link
@@ -32,8 +29,7 @@
     />
     <!-- Custom styles for this template -->
     <link href="assets/css/styles.css" rel="stylesheet" />
-
-    <!-- Le Fonts -->
+    <!-- Fonts -->
     <link
       href="https://fonts.googleapis.com/css?family=Courier+New"
       rel="stylesheet"
@@ -50,9 +46,9 @@
       class="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-fixed-top"
     >
       <div class="container-fluid d-flex justify-content-between mx-md-5">
-        <a class="navbar-brand logo" href="./index.html">
-          <img src="assets/img/abdteq-temp-logo-white.png" 
-               style="height: 75px"
+        <a class="navbar-brand logo" href="#home">
+          <img src="assets/img/abdteq-temp-logo-crop-white.png" 
+               style="height: 50px; padding-left: 100px"
                class="img-fluid img"
                alt="logo"
           />
@@ -71,6 +67,10 @@
 
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav mr-auto">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#product">PRODUCT</a>
+            </li>
             <li class="nav-item dropdown mx-4">
               <a
                 class="nav-link dropdown-toggle"
@@ -79,37 +79,48 @@
                 data-toggle="dropdown"
                 aria-haspopup="true"
                 aria-expanded="false"
-                >Company</a
+                >SOLUTIONS</a
               >
               <div class="dropdown-menu" aria-labelledby="dropdown01">
-                <a class="dropdown-item" href="template.html">Our Services</a>
-                <a class="dropdown-item" href="template.html">About Us</a>
-                <a class="dropdown-item" href="template.html">Blog</a>
+                <a class="dropdown-item" href="#solutions">Transport Services</a>
+                <a class="dropdown-item" href="#solutions">Event Reservations</a>
+                <a class="dropdown-item" href="#solutions">Hospitality and Entertainment</a>
+              </div>
+            </li>
+            <li class="nav-item dropdown mx-4">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="dropdown01"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >COMPANY</a
+              >
+              <div class="dropdown-menu" aria-labelledby="dropdown01">
+                <a class="dropdown-item" href="assets/template.html">About</a>
+                <a class="dropdown-item" href="assets/template.html">Team</a>
+                <a class="dropdown-item" href="assets/template.html">Contact Us</a>
               </div>
             </li>
             <li class="nav-item mx-4">
-              <a class="nav-link" href="template.html">Pricing</a>
-            </li>
-          </ul>
-
-          <ul class="navbar-nav">
-            <li class="nav-item mx-4"></li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="template.html">Contact Sales</a>
+              <a class="nav-link" href="assets/template.html">PRICING</a>
             </li>
             <li class="nav-item mx-4">
               <a
+                id="login-button"
                 class="nav-link"
-                href="https://nostalgic-curran-7e9229.netlify.com/"
-                >Login</a
-              >
+                href="#home">
+                LOGIN
+              </a>
+
             </li>
             <li class="nav-item mx-4">
               <button
                 class="btn btn-brand-accent"
-                href="https://nostalgic-curran-7e9229.netlify.com/"
+                href="#home"
               >
-                Create account &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+                Get Started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
               </button>
             </li>
           </ul>
@@ -118,134 +129,170 @@
     </nav>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="col-md-12 slide-box">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="typer-holder text">
-                <h1>
-                  Democratising Credit<br />
-                  for an inclusive world
-                </h1>
-                <p>
-                  We power lenders with AI and big data technology to help them
-                  underwrite first time borrowers profitably.
-                </p>
-                <a href="https://nostalgic-curran-7e9229.netlify.com/">
-                  <button class="btn btn-brand-accent">
-                    Create account &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
-                  </button>
-                </a>
+    <section id="home">
+        <div class="jumbotron">
+            <div class="col-md-12 slide-box">
+              <div class="container">
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="typer-holder text">
+                      <h1>
+                        Attend to your customers<br />
+                        where they are, <span>24/7.</span> <br />
+                        <br />
+                        Accept payments over <span>WhatsApp.</span> 
+                      </h1>
+                      <p>
+                        We use <span>natural language understanding</span> to interact 
+                        with your customers and take care of your most important business
+                        logics, <span>even outside your operating hours.</span>
+                      </p>
+                      <a href="#home">
+                        <button class="btn btn-brand-accent">
+                          Get started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+                        </button>
+                      </a>
+                      <a href="#home">
+                        <img src="assets/img/play-btn-4.webp"/>
+                      </a>
+                      <a class="hiw-text" href="#home">
+                        How it works
+                      </a>
+                    </div>
+                  </div>
+                  <div class="col-md-6 d-none d-md-block">
+                    <div class="banner-img"></div>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="col-md-6 d-none d-md-block">
-              <div class="banner-img"></div>
-            </div>
+          </div>
+    </section>
+
+    <!--==========================
+      Product Section
+    ============================-->
+    <section id="product">
+      <div class="container">
+
+        <header class="section-header">
+          <h3>What is <span>Natural Language Understanding?</span></h3>
+          <p>Natural language understanding or NLU is a subset of natural
+            language processing (NLP), which itself is a subset of machine
+            learning (ML) and one of the most important fields of AI. NLP 
+            refers to all systems that work together to handle end-to-end 
+            interactions between machines and humans in the preferred 
+            language of the human. In other words, NLP lets people and 
+            machines talk to each other “naturally.” NLU in itself deals
+            with the understanding of what a human says during a conversation. 
+          </p>
+          <img class="chatbot-image" src="assets/img/robby-wave.gif">
+          <p>
+            Our flaship product <span>AbdBot</span>, is an NLU agent that helps
+            businesses engage with their customers over conversational interfaces
+            like WhatsApp, Google Assistant, and on their websites. AbdBot can 
+            automate some of your processes like customer support and ticketing.
+          </p>
+        </header>
+
+        <div class="row product-container">
+          <div class="col-lg-6 content order-lg-1 order-2">
+            <h3 class="feature-title">Autonomous Customer Service</h3>
+            <p> 
+              Let AbdBot naturally respond to your active customers, even 
+              when your customer care agents are all on break. Our NLU agent
+              monitors incoming communications across all your customers facing
+              channels and attend to custmers's enquiries in real-time, 24/7. 
+              Whether it is to find more about a service, lodge a complaint
+              or give feedback, your clients won't we waiting for hours before
+              getting a response anymore!
+            </p>
+            <a href="assets/template.html">
+              Learn More&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+            </a>
+          </div>
+          <div class="col-lg-6 background order-lg-2 order-1 wow fadeInUp">
+            <img src="assets/img/about-extra-1.svg" class="img-fluid" alt="">
           </div>
         </div>
-      </div>
-    </div>
 
-    <!-- Example row of columns -->
-    <div class="row">
-      <div class="about-us section container-fluid catalogue">
-        <h2 class="section-title">Evaluate credit risk with us</h2>
-        <p>
-          Our AI platform taps over 1,000 data points to help lenders extend
-          credit to first-time borrowers
-        </p>
-
-        <div class="row" style="padding: 70px 0">
-          <div class="col-md-6">
-            <img
-              src="assets/img/about.jpg"
-              class="img-fluid about-img"
-              style="border-radius: 10px;"
-            />
+        <div class="row product-extra">
+          <div class="col-lg-6 wow fadeInUp">
+            <img src="assets/img/about-extra-2.svg" class="img-fluid" alt="">
           </div>
-          <div class="col-md-6">
-            <h3 class="section-title">
-              Give more credit to more people, approve faster
-            </h3>
-            <p>
-              Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-              Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+          <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <h3 class="feature-title">Autonomous Bookings</h3>
+            <p> 
+              AbdBot can connect to your CRM and our innovative backend to automate
+              bookings and reservations for your clients. After collecting the required
+              information by naturally conversing with a customer, AbdBot is smart enough
+              to process the payment and issue a ticket. The Autonomous agent can also send 
+              reminders to your clients and handover any interaction that requires human's
+              intervation to one of your agents.
             </p>
-
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item">
-                <i class="fa fa-angle-right bullet"></i> The one
-              </li>
-              <li class="list-group-item">
-                <i class="fa fa-angle-right bullet"></i> The one
-              </li>
-              <li class="list-group-item">
-                <i class="fa fa-angle-right bullet"></i> The one
-              </li>
-              <li class="list-group-item">
-                <i class="fa fa-angle-right bullet"></i> The one
-              </li>
-            </ul>
-            <h3 class="section-title">Enjoy up to 33% lower delinquencies</h3>
-            <p>
-              Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-              Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-            </p>
-
-            <a href="" class="link-secondary"
-              ><i class="fa fa-angle-right bullet"></i> Find out our pricing</a
-            >
+            <a href="assets/template.html">
+              Learn More&nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+            </a>
           </div>
         </div>
+
       </div>
-    </div>
-    <div class="row">
-      <div class="features section container-fluid catalogue">
-        <h2 class="section-title text-center">
-          We’ve developed technology you can rely on and that grows with your
-          business
-        </h2>
+    </section>
+    <!-- #product -->
+
+    <!--==========================
+      Solutions Section
+    ============================-->
+
+    <section id="solutions">
         <div class="row">
-          <div class="col-lg-4 step">
-            <div class="icon">
-              <img src="assets/img/deadline.png" />
-            </div>
-            <div class="txt">
-              <p>Fast Response Time</p>
-              <p class="sub">
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-              </p>
+            <div class="features section container-fluid catalogue">
+              <h2 class="section-title text-center">
+                Bringing Autonomous Services To Various Sectors
+              </h2>
+              <div class="row">
+                <div class="col-lg-4 step">
+                  <div class="icon">
+                    <img src="assets/img/transportation.jpg" />
+                  </div>
+                  <div class="txt">
+                    <p>Transport Services</p>
+                    <p class="sub">
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 step">
+                  <div class="icon">
+                    <img class="features-img" src="assets/img/events.jpg" />
+                  </div>
+                  <div class="txt">
+                    <p>Event Reservations</p>
+                    <p class="sub">
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                    </p>
+                  </div>
+                </div>
+                <div class="col-lg-4 step">
+                  <div class="icon">
+                    <img src="assets/img/hospitality.jpg" />
+                  </div>
+                  <div class="txt">
+                    <p>Hospitality & Entertainment</p>
+                    <p class="sub">
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                      Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-          <div class="col-lg-4 step">
-            <div class="icon">
-              <img src="assets/img/efficiency.png" />
-            </div>
-            <div class="txt">
-              <p>Higher Approval Rates</p>
-              <p class="sub">
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-              </p>
-            </div>
-          </div>
-          <div class="col-lg-4 step">
-            <div class="icon">
-              <img src="assets/img/market-analysis.png" />
-            </div>
-            <div class="txt">
-              <p>Lower Delinquencies</p>
-              <p class="sub">
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-                Regius, raptus nixs mechanice quaestio de lotus, teres fortis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    </section>
+    <!-- #solutions -->
+
     <div class="row">
       <div class="partners section container-fluid catalogue">
         <img
