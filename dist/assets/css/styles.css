@@ -4,6 +4,7 @@ body {
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
     color: #76797E;
+
     margin: 0;
 }
 
@@ -36,7 +37,6 @@ h5 {
 h6 {
     font-size: 1.6rem;
 }
-
 .hiw-text {
     font-size: 1.1rem;
     font-weight: bold;
@@ -48,8 +48,6 @@ h6 {
     color: rgba(110, 69, 23, 0.8);
 }
 
-
-
 /*buttons*/
 
 .btn-brand-accent {
@@ -57,6 +55,7 @@ h6 {
     background-color: #17406E;
     border: none;
     border-radius: 10px;
+
     font-size: 16px;
     padding: 12px 20px;
     display: inline-block;
@@ -64,7 +63,7 @@ h6 {
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    margin: 0 10px;
+    margin: 0 5px;
     /*font-weight: 600;*/
     text-transform: uppercase;
     cursor: pointer;
@@ -89,12 +88,14 @@ h6 {
 }
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
+
     background-color: rgba(110, 69, 23, 0.8);
     color: #F2F5FA;
 }
 
 /* .btn-brand-white:hover, .btn-brand-white[disabled]:hover {
     color: red;
+
     background-color: rgba(217, 220, 214, 0.6);
 }
 
@@ -107,8 +108,6 @@ h6 {
     color: red;
     background-color: rgba(217, 220, 214, 0.6);
 } */
-
-
 @media (max-width: 1200px) {
     h1 {
         font-size: 3rem;
@@ -280,6 +279,7 @@ body a:hover {
 
 #login-button:hover {
     color: #6E4517;
+
 }
 
 .dropdown-item {
@@ -307,6 +307,8 @@ body a:hover {
 .bg-light {
     background-color: #FFF !important;
     padding: 0.2rem 0.5rem;
+    background-color: #E6FEFF !important;
+    padding: 1rem 0.5rem;
 }
 
 .logo {
@@ -598,7 +600,6 @@ body a:hover {
         line-height: 1.20312em;
         /*font-weight: 700;*/
         margin-top: 0;
-        
     }
 
 }
@@ -697,7 +698,6 @@ body a:hover {
     font-weight: 600;
     margin: 10px 5px;
     color: #F2F5FA;
-   
 }
 
 .features .txt p.sub {
@@ -713,12 +713,10 @@ body a:hover {
     text-align: left;
 }
 
-
 @media (max-width: 480px) {
 
     .features p {
-        font-size: 20px;
-        
+        font-size: 20px; 
     }
 
     .features .step {
