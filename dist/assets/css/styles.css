@@ -47,6 +47,9 @@ h6 {
 .hiw-text:hover {
     color: rgba(110, 69, 23, 0.8);
 }
+.hiw-btn {
+    padding-left: 30px;
+}
 
 /*buttons*/
 
