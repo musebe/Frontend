@@ -298,7 +298,7 @@ body a:hover {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #6E4517;
+    color:#17406E;
     /*font-weight: 600;*/
 }
 
@@ -580,6 +580,7 @@ body a:hover {
   #solutions .section-header h3,
   #solutions .section-header p {
     font-size: 36px;
+    font-weight: bold;
     color: #fff;
     padding-bottom: 30px;
     /* HERE */
@@ -637,7 +638,7 @@ body a:hover {
   }
 
   #solutions .card img {
-      height: 250px;
+      height: 100px;
   }
   /* Solutions Section
 --------------------------------*/
