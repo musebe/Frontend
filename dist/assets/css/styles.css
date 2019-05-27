@@ -285,17 +285,16 @@ body a:hover {
 
 }
 
-.dropdown-item {
-    /*font-weight: 600;*/
+/* .dropdown-item {
     font-size: 14px;
     font-weight: bolder;
     color: #171819;
-}
+} */
 
-.dropdown-item:hover {
+/* .dropdown-item:hover {
     color: #6E4517;
     background-color: transparent;
-}
+} */
 
 .navbar-light .navbar-nav .nav-link:hover {
     color:#17406E;
@@ -341,7 +340,7 @@ body a:hover {
 
 .jumbotron p span {
     font-weight: bold;
-    color: #17406E;
+    color: red;
 }
 
 .sub-page {
@@ -367,7 +366,7 @@ body a:hover {
     margin-top: 100px;
 }
 
-.slide-box .banner-img {
+/* .slide-box .banner-img {
     background-image: url("../img/man-chatting-walking.jpg");
     height: 600px;
     width: 800px;
@@ -375,7 +374,7 @@ body a:hover {
     background-repeat: no-repeat;
     filter: alpha(opacity=40);
     opacity: 1;
-}
+} */
 
 .slide-box .text .element {
     border-bottom: 4px solid #B4CCE9;
@@ -641,6 +640,12 @@ body a:hover {
       height: 100px;
   }
   /* Solutions Section
+--------------------------------*/
+
+ /* Company Section
+--------------------------------*/
+
+ /* Company Section
 --------------------------------*/
 
 @media (max-width: 1200px) {
