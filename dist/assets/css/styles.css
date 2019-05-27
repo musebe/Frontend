@@ -531,7 +531,7 @@ body a:hover {
   }
 
   #product .section-header p {
-      padding-top: 10px;
+      padding-top: 20px;
       padding-bottom: 20px;
       font-size: 1.1rem;
   }
@@ -569,6 +569,71 @@ body a:hover {
       color: #17406E;
   }
 
+  /* Solutions Section
+--------------------------------*/
+  
+  #solutions {
+    padding: 60px 0;
+    background:#17406E;
+  }
+  
+  #solutions .section-header h3,
+  #solutions .section-header p {
+    font-size: 36px;
+    color: #fff;
+    padding-bottom: 30px;
+    /* HERE */
+  }
+  
+  #solutions .card {
+    background: #fff;
+    border-color: #fff;
+    border-radius: 10px;
+    margin: 0 15px;
+    padding: 15px 0;
+    text-align: center;
+    color:#171819;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+  }
+  
+  #solutions .card:hover {
+    background: #17406E;
+    color: #fff;
+    border-color: #fff;
+  }
+  
+  #solutions .card i {
+    font-size: 48px;
+    padding-top: 15px;
+    color: #fff;
+  }
+  
+  #solutions .card h5 {
+    font-size: 22px;
+    font-weight: 600;
+  }
+  
+  #solutions .card p {
+    font-size: 15px;
+    color: #171819;
+  }
+  #solutions .card p:hover {
+    font-size: 15px;
+    color: #fff;
+  }
+  
+  #solutions .card .readmore {
+    color: #171819;
+    font-weight: 600;
+    display: inline-block;
+    transition: 0.3s ease-in-out;
+    border-bottom: #17406E solid 2px;
+  }
+  
+  #solutions .card .readmore:hover {
+    border-bottom: #fff solid 2px;
+  }
   /* Solutions Section
 --------------------------------*/
 
