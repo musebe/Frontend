@@ -37,19 +37,6 @@ h5 {
 h6 {
     font-size: 1.6rem;
 }
-.hiw-text {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color:#17406E;
-    padding-left: 5px;
-}
-
-.hiw-text:hover {
-    color: rgba(110, 69, 23, 0.8);
-}
-.hiw-btn {
-    padding-left: 30px;
-}
 
 /*buttons*/
 
@@ -58,25 +45,6 @@ h6 {
     background-color: #17406E;
     border: none;
     border-radius: 10px;
-
-    font-size: 16px;
-    padding: 12px 20px;
-    display: inline-block;
-    -webkit-transition: all .2s ease-in;
-    -moz-transition: all .2s ease-in;
-    -o-transition: all .2s ease-in;
-    transition: all .2s ease-in;
-    margin: 0 5px;
-    /*font-weight: 600;*/
-    text-transform: uppercase;
-    cursor: pointer;
-}
-
-.btn-brand-white {
-    color: #000003;
-    background-color: #F2F5FA;
-    border: 1px solid transparent;
-    border-radius: 4px;
     font-size: 16px;
     padding: 12px 20px;
     display: inline-block;
@@ -86,7 +54,6 @@ h6 {
     transition: all .2s ease-in;
     margin: 0 5px;
     text-transform: uppercase;
-    /*font-weight: 600;*/
     cursor: pointer;
 }
 
@@ -96,21 +63,6 @@ h6 {
     color: #F2F5FA;
 }
 
-/* .btn-brand-white:hover, .btn-brand-white[disabled]:hover {
-    color: red;
-
-    background-color: rgba(217, 220, 214, 0.6);
-}
-
-.btn-brand-accent:disabled {
-    background-color: rgba(54,  30,  1, 0.8);
-    color: #ffffff;
-} */
-
-/* .btn-brand-white:disabled {
-    color: red;
-    background-color: rgba(217, 220, 214, 0.6);
-} */
 @media (max-width: 1200px) {
     h1 {
         font-size: 3rem;
@@ -285,20 +237,9 @@ body a:hover {
 
 }
 
-/* .dropdown-item {
-    font-size: 14px;
-    font-weight: bolder;
-    color: #171819;
-} */
-
-/* .dropdown-item:hover {
-    color: #6E4517;
-    background-color: transparent;
-} */
-
 .navbar-light .navbar-nav .nav-link:hover {
     color:#17406E;
-    /*font-weight: 600;*/
+    font-weight: bolder;
 }
 
 .navbar-fixed-top.scrolled {
@@ -330,89 +271,71 @@ body a:hover {
 }
 
 .jumbotron {
-    background-color: #fff;
-    height: 600px;
+    background-color: #d0d8e2;
+    height: 650px;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
+    padding-bottom: 0%;
 }
-
 .jumbotron p span {
     font-weight: bold;
-    color: red;
+    color: #17406E;
 }
-
-.sub-page {
-    height: 300px;
-    padding: 0;
-    min-height: 300px;
-    background-attachment: fixed;
-}
-
-.slide-box {
-    height: auto;
-    padding-left: 0;
-    padding-right: 0;
-}
-
-.slide-box .text {
-    padding: 15px 20px 10px;
-    height: auto;
-}
-
-.slide-box .typer-holder {
-    height: 300px;
-    margin-top: 100px;
-}
-
-/* .slide-box .banner-img {
-    background-image: url("../img/man-chatting-walking.jpg");
-    height: 600px;
-    width: 800px;
-    float: left;
-    background-repeat: no-repeat;
-    filter: alpha(opacity=40);
-    opacity: 1;
-} */
-
-.slide-box .text .element {
-    border-bottom: 4px solid #B4CCE9;
-}
-
-.slide-box .text h1 {
+.jumbotron .text h1 {
     font-size: 2rem;
     line-height: 1em;
     color: rgba(23, 24, 25, 0.8);
-    padding-top: 0px;
-    padding-bottom: 20px;
-    /*letter-spacing: 0.1rem;*/
-    /*font-weight: 700;*/
+    padding-top: 100px;
+    padding-bottom: 50px;
 }
 
-.slide-box .text p {
+.jumbotron .text p {
     font-size: 1.2rem;
     line-height: 1.50312em;
     color: #171819;
     text-align: justify;
-    padding-bottom: 15px
+    padding-bottom: 30px
 }
 
-.slide-box .text h1 span {
+.jumbotron .text h1 span {
     color: #17406E;
 }
-/* Sections Header
+.jumbotron .hiw-text {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color:#17406E;
+    padding-left: 5px;
+}
+
+.jumbotron .hiw-text:hover {
+    color: rgba(110, 69, 23, 0.8);
+}
+.jumbotron .hiw-btn {
+    padding-left: 30px;
+}
+
+.jumbotron .banner-img img {
+    height: 50%;
+    background-color: green;
+}
+
+/* product Section
 --------------------------------*/
 
-.section-header h3 {
+#product {
+    background: #fff;
+    padding: 10px 0;
+  }
+#product .section-header h3 {
     font-size: 36px;
     color: #171819;
     text-align: center;
     font-weight: 500;
-    position: relative;
+    /* position: relative; */
   }
-  
-  .section-header p {
+  #product .section-header p {
     text-align: center;
     margin: auto;
     font-size: 1.1rem;
@@ -421,31 +344,15 @@ body a:hover {
     color:#171819;
     width: 80%;
   }
-
-  .section-header p span {
+#product .section-header p span {
       color: #17406E;
       font-weight: bold;
-  }
-
-
-
-
-/* product Section
---------------------------------*/
-
-#product {
-    background: #fff;
-    padding: 30px 0;
   }
   
   #product .product-container .background {
     margin: 20px 0;
   }
-  
-  #product .product-container .content {
-    background: #fff;
-    
-  }
+
   
   #product .product-container .title {
     color: #333;
@@ -578,6 +485,7 @@ body a:hover {
   
   #solutions .section-header h3,
   #solutions .section-header p {
+    text-align: center;
     font-size: 36px;
     font-weight: bold;
     color: #fff;
