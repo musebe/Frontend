@@ -633,6 +633,11 @@ body a:hover {
   
   #solutions .card .readmore:hover {
     border-bottom: #fff solid 2px;
+    color:#fff;
+  }
+
+  #solutions .card img {
+      height: 250px;
   }
   /* Solutions Section
 --------------------------------*/
