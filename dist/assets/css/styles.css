@@ -272,7 +272,7 @@ body a:hover {
 
 .jumbotron {
     background-color: #d0d8e2;
-    height: 650px;
+    /* height: 650px; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -313,11 +313,10 @@ body a:hover {
     color: rgba(110, 69, 23, 0.8);
 }
 .jumbotron .hiw-btn {
-    padding-left: 30px;
+    padding: 10px;
 }
 
 .jumbotron .banner-img img {
-    height: 530px;
     margin-top: 40px;
     padding-left: 40px;
     background-color: #d0d8e2;
@@ -620,10 +619,13 @@ body a:hover {
         font-weight: 700;
     }
 
-    .jumbotron {
+    /* .jumbotron {
         height: 500px;
-    }
-
+    } */
+    
+    /* .padding{
+        margin: 10px;
+    } */
 }
 
 @media (max-width: 480px) {
