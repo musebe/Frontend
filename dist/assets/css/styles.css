@@ -42,7 +42,7 @@ h6 {
 
 .btn-brand-accent {
     color: #F2F5FA;
-    background-color: #17406E;
+    background-color: #195C96;
     border: none;
     border-radius: 10px;
     font-size: 16px;
@@ -59,8 +59,8 @@ h6 {
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
 
-    background-color: rgba(110, 69, 23, 0.8);
-    color: #F2F5FA;
+    background-color: #ffe882;
+    color: #195c96;
 }
 
 @media (max-width: 1200px) {
@@ -227,18 +227,18 @@ body a:hover {
 }
 
 #login-button {
-    color: #17406E;
+    color: #195C96;
     font-weight: bolder;
     padding-left: 60px;
 }
 
 #login-button:hover {
-    color: #6E4517;
+    color: #ffe882;
 
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color:#17406E;
+    color:#195C96;
     font-weight: bolder;
 }
 
@@ -271,7 +271,7 @@ body a:hover {
 }
 
 .jumbotron {
-    background-color: #d0d8e2;
+    background-color: #B0D0D3;
     /* height: 650px; */
     background-size: cover;
     background-position: center;
@@ -281,7 +281,7 @@ body a:hover {
 }
 .jumbotron p span {
     font-weight: bold;
-    color: #17406E;
+    color: #195C96;
 }
 .jumbotron .text h1 {
     font-size: 2rem;
@@ -300,17 +300,17 @@ body a:hover {
 }
 
 .jumbotron .text h1 span {
-    color: #17406E;
+    color: #195C96;
 }
 .jumbotron .hiw-text {
     font-size: 1.1rem;
     font-weight: bold;
-    color:#17406E;
+    color:#195C96;
     padding-left: 5px;
 }
 
 .jumbotron .hiw-text:hover {
-    color: rgba(110, 69, 23, 0.8);
+    color: #ffe882;
 }
 .jumbotron .hiw-btn {
     padding: 10px;
@@ -319,7 +319,7 @@ body a:hover {
 .jumbotron .banner-img img {
     margin-top: 40px;
     padding-left: 40px;
-    background-color: #d0d8e2;
+    background-color: #B0D0D3;
 }
 
 /* product Section
@@ -346,7 +346,7 @@ body a:hover {
     width: 80%;
   }
 #product .section-header p span {
-      color: #17406E;
+      color: #195C96;
       font-weight: bold;
   }
   
@@ -473,7 +473,7 @@ body a:hover {
 
   #product .row a {
       font-size: 1.1rem;
-      color: #17406E;
+      color: #195C96;
   }
 
   /* Solutions Section
@@ -481,7 +481,7 @@ body a:hover {
   
   #solutions {
     padding: 60px 0;
-    background:#17406E;
+    background:#195C96;
   }
   
   #solutions .section-header h3,
@@ -507,7 +507,7 @@ body a:hover {
   }
   
   #solutions .card:hover {
-    background: #17406E;
+    background: #195C96;
     color: #fff;
     border-color: #fff;
   }
@@ -537,7 +537,7 @@ body a:hover {
     font-weight: 600;
     display: inline-block;
     transition: 0.3s ease-in-out;
-    border-bottom: #17406E solid 2px;
+    border-bottom: #195C96 solid 2px;
   }
   
   #solutions .card .readmore:hover {
@@ -673,7 +673,7 @@ body a:hover {
 }
 
 .features {
-    background-color: #17406E;
+    background-color: #195C96;
     color: #F2F5FA;
 }
 
