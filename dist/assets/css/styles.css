@@ -317,8 +317,10 @@ body a:hover {
 }
 
 .jumbotron .banner-img img {
-    height: 50%;
-    background-color: green;
+    height: 530px;
+    margin-top: 40px;
+    padding-left: 40px;
+    background-color: #d0d8e2;
 }
 
 /* product Section
