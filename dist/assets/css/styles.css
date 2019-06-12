@@ -59,7 +59,7 @@ h6 {
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
 
-    background-color: #ffe882;
+    background-color: #25D366;
     color: #195c96;
 }
 
@@ -114,19 +114,6 @@ h6 {
         font-size: 1.1rem;
     }
 
-    .btn-brand-accent {
-        font-size: 14px;
-        padding: 12px 10px;
-        width: 100%;
-        display: inline-block;
-    }
-
-    .btn-brand-white {
-        font-size: 14px;
-        padding: 12px 10px;
-        width: 100%;
-        display: inline-block;
-    }
 }
 
 @media (max-width: 480px) {
@@ -233,7 +220,7 @@ body a:hover {
 }
 
 #login-button:hover {
-    color: #ffe882;
+    color: #25D366;
 
 }
 
@@ -271,7 +258,7 @@ body a:hover {
 }
 
 .jumbotron {
-    background-color: #B0D0D3;
+    background-color: #f0f6f7;
     /* height: 650px; */
     background-size: cover;
     background-position: center;
@@ -284,7 +271,7 @@ body a:hover {
     color: #195C96;
 }
 .jumbotron .text h1 {
-    font-size: 2rem;
+    font-size: 2.7rem;
     line-height: 1em;
     color: rgba(23, 24, 25, 0.8);
     padding-top: 100px;
@@ -300,26 +287,13 @@ body a:hover {
 }
 
 .jumbotron .text h1 span {
-    color: #195C96;
-}
-.jumbotron .hiw-text {
-    font-size: 1.1rem;
-    font-weight: bold;
-    color:#195C96;
-    padding-left: 5px;
-}
-
-.jumbotron .hiw-text:hover {
-    color: #ffe882;
-}
-.jumbotron .hiw-btn {
-    padding: 10px;
+    color: #25D366;
 }
 
 .jumbotron .banner-img img {
     margin-top: 40px;
     padding-left: 40px;
-    background-color: #B0D0D3;
+    background-color: #f0f6f7;
 }
 
 /* product Section
