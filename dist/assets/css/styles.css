@@ -259,12 +259,12 @@ body a:hover {
 
 .jumbotron {
     background-color: #f0f6f7;
-    /* height: 650px; */
+    /* height: 600px; */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    padding-bottom: 0%;
+    padding-bottom: 3%;
 }
 .jumbotron p span {
     font-weight: bold;
@@ -274,7 +274,7 @@ body a:hover {
     font-size: 2.7rem;
     line-height: 1em;
     color: rgba(23, 24, 25, 0.8);
-    padding-top: 100px;
+    padding-top: 150px;
     padding-bottom: 50px;
 }
 
@@ -408,6 +408,7 @@ body a:hover {
   }
 
   #product .section-header h3 span {
+      font-size: 2rem;
       font-weight: bold;
       color: #195C96;
   }
