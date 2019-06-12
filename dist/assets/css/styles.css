@@ -337,13 +337,13 @@ body a:hover {
     /* position: relative; */
   }
   #product .section-header p {
-    text-align: center;
+    /* text-align: center; */
     margin: auto;
     font-size: 1.1rem;
     padding-top: 25px;
     padding-bottom: 40px;
     color:#171819;
-    width: 80%;
+    width: 90%;
   }
 #product .section-header p span {
       color: #195C96;
@@ -435,18 +435,18 @@ body a:hover {
 
   #product .section-header h3 span {
       font-weight: bold;
+      color: #195C96;
   }
 
   #product .section-header p {
       padding-top: 20px;
       padding-bottom: 20px;
       font-size: 1.1rem;
+      width: 70%;
   }
 
   #product .section-header img {
-      height: 500px;
-      margin-top: 0px;
-      margin-left: 30%;
+      align-content: center;
   }
   
   #product .product-extra {
@@ -463,10 +463,15 @@ body a:hover {
       color: #171819;
   }
 
+  #product .row h3 {
+      color: #195C96;
+      padding-top: 30px;
+  }
+
   #product .row p {
     text-align: justify;
     padding-top: 30px; 
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     font-size: 1.1rem;
     color: #171819;
   }
