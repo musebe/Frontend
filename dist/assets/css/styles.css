@@ -461,7 +461,7 @@ body a:hover {
   
   #solutions {
     padding: 60px 0;
-    background:#195C96;
+    background:#f0f6f7;
   }
   
   #solutions .section-header h3,
@@ -469,7 +469,7 @@ body a:hover {
     text-align: center;
     font-size: 36px;
     font-weight: bold;
-    color: #fff;
+    color: #000;
     padding-bottom: 30px;
     /* HERE */
   }
