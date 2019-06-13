@@ -203,12 +203,11 @@ body a:hover {
     border: none;
     font-size: 1.2rem;
     font-style: normal;
-    color:#76797E;
 }
 
 
 .navbar-light .navbar-nav .nav-link {
-    font-weight: 500;
+    font-weight: 400;
     padding: 15px 0;
     color: #171819;
 }
@@ -412,6 +411,10 @@ body a:hover {
     font-size: 14px;
   }
 
+  #product .section-header h3 {
+      padding-bottom: 30px;
+  }
+
   #product .section-header h3 span {
       font-size: 2rem;
       font-weight: bold;
@@ -428,31 +431,54 @@ body a:hover {
   #product .section-header img {
       align-content: center;
   }
-  
-  #product .product-extra {
-    padding-top: 60px;
-  }
-  
-  #product .product-extra h4 {
-    font-weight: 600;
-    font-size: 24px;
+
+  #product .card-deck {
+      margin-bottom: 50px;
   }
 
-  #product .feature-title {
-      font-size: 36px;
+  #product .card-deck .card {
+      border-color: #fff;
+      text-align: center;
+  }
+
+  #product .card-deck h5 {
+      font-size: 1.5rem;
+      color: #195C96;
+  }
+
+  #product .card-deck p {
+      font-size: 1rem;
       color: #171819;
+      text-align: center;
+  }
+
+  #product .card-deck  img {
+    max-height: 50%;
+    max-width: 50%;
+    padding-bottom: 10px;
+  }  
+
+  #product .short-description {
+    font-size: 1.3rem;
+    color: #171819;
+    text-align: center;
+
+  }
+
+  #product .product-extra {
+    padding-top: 20px;
   }
 
   #product .row h3 {
+      font-size: 1.5rem;
       color: #195C96;
       padding-top: 30px;
   }
 
   #product .row p {
     text-align: justify;
-    padding-top: 30px; 
-    padding-bottom: 10px;
-    font-size: 1.1rem;
+    padding-top: 10px; 
+    font-size: 1rem;
     color: #171819;
   }
 
