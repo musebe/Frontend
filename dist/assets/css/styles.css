@@ -312,10 +312,8 @@ body a:hover {
     color: #171819;
     text-align: center;
     font-weight: 500;
-    /* position: relative; */
   }
   #product .section-header p {
-    /* text-align: center; */
     margin: auto;
     font-size: 1.1rem;
     padding-top: 25px;
@@ -492,10 +490,43 @@ body a:hover {
   
   #solutions {
     padding: 60px 0;
-    background:#f0f6f7;
+    background: #195C96;
   }
   
-  #solutions .section-header h3,
+  #solutions .section-header h3 {
+      font-size: 3rem;
+      padding-left: 200px;
+      padding-bottom: 40px;
+      color: #fff;
+  }
+
+  #solutions .col-md-8 img {
+    max-height: 15%;
+    max-width: 15%;
+  }
+
+  #solutions .col-md-4 img {
+    max-height: 125%;
+    max-width: 125%;
+  }
+
+  #solutions .sectors {
+      font-size: 2rem;
+      color: #fff;
+      text-align: center;
+      padding: 30px 0px; 
+  }
+
+  #solutions .media-body {
+      font-size: 1rem;
+    color: #fff;
+  }
+
+  #solutions .media-body h5 {
+      font-size: 2rem;
+      color: #25D366;
+  }
+
   #solutions .section-header p {
     text-align: center;
     font-size: 36px;
@@ -518,47 +549,29 @@ body a:hover {
   }
   
   #solutions .card:hover {
-    background: #195C96;
+    background: #25D366;
     color: #fff;
     border-color: #fff;
   }
   
-  #solutions .card i {
-    font-size: 48px;
-    padding-top: 15px;
-    color: #fff;
-  }
   
   #solutions .card h5 {
-    font-size: 22px;
-    font-weight: 600;
-  }
-  
-  #solutions .card p {
-    font-size: 15px;
-    color: #171819;
-  }
-  #solutions .card p:hover {
-    font-size: 15px;
-    color: #fff;
-  }
-  
-  #solutions .card .readmore {
-    color: #171819;
-    font-weight: 600;
-    display: inline-block;
-    transition: 0.3s ease-in-out;
-    border-bottom: #195C96 solid 2px;
-  }
-  
-  #solutions .card .readmore:hover {
-    border-bottom: #fff solid 2px;
-    color:#fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #195C96;
   }
 
   #solutions .card img {
-      height: 100px;
+      padding: 10px 0;
+      max-height: 50%;
+      max-width: 50%;
   }
+  
+  #solutions .card p {
+    font-size: 1rem;
+    color: #171819;
+  }
+  
   /* Solutions Section
 --------------------------------*/
 
