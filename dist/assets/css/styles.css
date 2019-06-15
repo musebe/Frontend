@@ -580,9 +580,63 @@ body a:hover {
 --------------------------------*/
 #howitworks {
     padding: 60px 0;
-    background: #25D366;
+    background: #fff;
   }
 
+#howitworks .section-header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#howitworks .section-header h3 {
+    font-size: 2rem;
+    color: #195C96;
+}
+
+#howitworks .section-header p {
+    font-size: 1.5rem;
+    color: #171819;
+}
+
+#howitworks .section-header span {
+    color: #195C96;
+    font-weight: bold;
+}
+#howitworks .card-deck {
+    margin: 0 30px;
+}
+
+#howitworks .card {
+    background: #195C96;
+    border-color: #fff;
+    border-radius: 10px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #fff;
+    transition: 0.3s ease-in-out;
+    height: 100%;
+  }
+
+  #howitworks .card:hover {
+    background: #25D366;
+    color: #171819;
+    border-color: #fff;
+  }
+
+
+#howitworks .card img {
+    max-height: 25%;
+    max-width: 25%;
+    padding: 20px 0;
+}
+
+#howitworks .card h5 {
+    font-size: 1.5rem;
+}
+
+#howitworks .card p {
+    font-size: 1rem;
+}
  /* How it works Section
 --------------------------------*/
 
