@@ -640,399 +640,57 @@ body a:hover {
  /* How it works Section
 --------------------------------*/
 
-@media (max-width: 1200px) {
-    .slide-box .text {
-        padding: 15px 120px 10px 20px;
-        margin-top: 120px;
-
-    }
-
-    .slide-box .text h1 {
-        line-height: 1.20312em;
-        /*font-weight: 700;*/
-    }
-
-    .slide-box .text p {
-        font-size: 1.2rem;
-        line-height: 1.20312em;
-        /*font-weight: 700;*/
-    }
+/* Contact us Section
+--------------------------------*/
+#contact-us {
+    background-color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
 
-@media (max-width: 991px) {
-
-    .slide-box .text {
-        padding: 15px 100px 10px 20px;
-        margin-top: 100px;
-    }
-
-    .slide-box .text h1 {
-        line-height: 1.20312em;
-        /*font-weight: 700;*/
-    }
-
-    .slide-box .text p {
-        font-size: 1.0rem;
-        margin-bottom: 1.1em;
-        line-height: 1.20312em;
-        /*font-weight: 700;*/
-        margin-top: 0;
-    }
-
+#contact-us .col-md-8 {
+    background-color: #fff;
 }
 
-@media (max-width: 767px) {
-
-    .slide-box .text {
-        padding: 10px 50px;
-        margin-top: 90px;
-        text-align: center;
-    }
-
-    .slide-box .text p {
-        margin-bottom: 1.1em;
-        font-size: 1rem;
-        line-height: 1.20312em;
-        margin-top: 0;
-    }
-
-    .slide-box .text h1 {
-        font-size: 1rem;
-        line-height: 1.20312em;
-        font-weight: 700;
-    }
-
-    /* .jumbotron {
-        height: 500px;
-    } */
-    
-    /* .padding{
-        margin: 10px;
-    } */
+#contact-us .col-md-8 form {
+    text-align: center;
+    border: 1px solid #fff;
 }
 
-@media (max-width: 480px) {
-
-    .slide-box .text {
-        padding: 10px 10px;
-        margin-top: 80px;
-    }
-
-    .slide-box .text p {
-        font-size: 1rem;
-        margin-bottom: 1.1em;
-        /*font-weight: 700;*/
-        line-height: 1.42857em;
-        margin-top: 0;
-    }
-
-    .slide-box .text h1 {
-        line-height: 1.20312em;
-        /*font-weight: 700;*/
-        /*font-size: 1.2rem;*/
-        /*line-height: 1.20312em;*/
-        /*font-weight: 700;*/
-    }
+#contact-us .col-md-8 p {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #195C96;
 }
 
-
-.about-us .about-img {
-    width: 500px;
-    margin: 30px 10px;
-    background-repeat: no-repeat no-repeat;
-}
-
-.bullet {
-    color: #000003;
-    font-weight: 800;
-    font-size: larger;
-    padding-right: 10px;
-}
-
-.link-secondary{
-    color: #000003;
-    font-size: 18px;
-
-}
-
-.features {
+#contact-us .col-md-8 button {
     background-color: #195C96;
-    color: #F2F5FA;
 }
 
-.features .section-title {
-    padding: 0 8rem 0;
+#logo-contact-us {
+    height: 40px;
 }
 
-.features .section-title {
-    color: #F2F5FA;
-    font-weight: 600;
-    font-style: normal;
-    text-align: center;
+#image-contact-us {
+    padding: 10px 0;
 }
 
-.features .txt p {
+#contact-us .col-md-4 p {
     font-size: 1rem;
-    font-style: normal;
-    line-height: 1.33;
-    font-weight: 600;
-    margin: 10px 5px;
-    color: #F2F5FA;
+    font-weight: bold;
+    color: #195C96;
 }
+/* Contact us Section
+--------------------------------*/
 
-.features .txt p.sub {
-    color: rgba(255, 255, 255, 0.75);
-    font-size: 16px;
-    font-style: normal;
-    line-height: 1.5;
-    font-weight: normal;
-    margin: 10px auto;
-}
-
-.features .step {
-    text-align: left;
-}
-
-@media (max-width: 480px) {
-
-    .features p {
-        font-size: 20px; 
-    }
-
-    .features .step {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-}
-
-.features .step .icon img {
-    width: 200px;
-    height: 128px;
-    margin: 20px 25px;
-}
-
-.features .step .txt, .feature-holder-text p {
-    font-size: 16px;
-    font-weight: 300;
-    padding: 0px 30px;
-}
-
-.features .step .txt b, .feature-holder-text h4 {
-    display: block;
-    margin: 5px 0px;
-    font-weight: 600;
-}
-
-@media (max-width: 991px) {
-    .features .step .txt {
-        padding: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .features .step .icon img {
-        width: 100px;
-        height: 100px;
-        margin: 15px 0;
-    }
-}
-
-@media (max-width: 480px) {
-
-    .features .step .txt {
-        text-align: center;
-    }
-
-    .features .step .icon img {
-        width: 70px;
-        height: 70px;
-        margin: 0;
-    }
-    .features .step .icon {
-        text-align: center;
-    }
-
-}
-
-.partners {
-    height: auto;
-    text-align: center;
-}
-
-.partners p {
-    padding: 0 90px;
-}
-
-
-@media (max-width: 991px) {
-
-    .partners p {
-        padding: 0 50px;
-    }
-}
-
-@media (max-width: 767px) {
-
-    .partners p {
-        padding: 0 30px;
-    }
-}
-
-@media (max-width: 480px) {
-
-
-    .partners p {
-        padding: 0 20px;
-    }
-
-}
-
-.testimonies {
-    background-color: #B4CCE9;
-}
-
-.testimonies .section-title {
-    color: #011936;
-}
-
-.testimonies p {
-    color: rgba(1, 25, 54, 0.75) !important;
-    text-align: center;
-}
-
-
-.testimonies .testimony {
-    background-color: #ffffff;
-    padding: 20px 40px;
-    min-height: 200px;
-    border-right: 5px solid #f7f7f7;
-    margin: 10px 0 20px;
-    font-size: 18px;
-}
-
-
-@media (max-width: 480px) {
-    .testimonies .testimony blockquote {
-        /*margin-left: 0px;*/
-        margin-top: 10px;
-    }
-}
-
-.call-to-action {
-    height: auto;
-    text-align: center;
-}
-
-.call-to-action p {
-    text-align: center !important;
-}
-
-.meta-links {
-    height: 300px;
-}
-
-.meta-links .side-1 {
-    background-color: #E6FEFF;
-    height: 300px;
-
-}
-
-.meta-links .side-2 {
-    background-color: #ff9800;
-    height: 300px;
-
-}
-
-.footer {
-    background-color: #011936;
-    height: 300px;
-}
-
-.catalogue {
-    padding: 5rem 13.5rem 7rem;
-    display: block;
-}
-
-.catalogue p {
-    font-size: 1.2rem;
-    /*width: 50%;*/
-    font-weight: 400;
-    font-style: normal;
-    color: rgba(64, 63, 76, 0.54);
-    line-height: 1.5;
-    /*margin-bottom: 24px;*/
-}
-
-@media (max-width: 1200px) {
-    .catalogue {
-        padding: 3rem 12rem;
-    }
-}
-
-@media (max-width: 767px) {
-    .catalogue {
-        padding: 2.5rem 5rem;
-    }
-}
-
-@media (max-width: 480px) {
-    .catalogue {
-        padding: 1rem 1.2rem;
-    }
-}
-
-.catalogue .section-title {
-    margin: 15px 0;
-    line-height: 1.2;
-    font-weight: 800;
-    /*font-size: 2.5rem;*/
-    font-style: normal;
-}
-
-
-@media (max-width: 480px) {
-    .features .section-title {
-        padding: 0 1.5rem;
-    }
-}
-
-.buttons-section {
-    padding: 50px 0 10px;
-    text-align: center;
-}
-
-.buttons-section a {
-    display: inline-block;
-}
-
+/* Footer Section
+--------------------------------*/
 .footer {
     padding: 50px 120px 60px;
     background-color: #011936;
     font-size: 16px;
     height: auto;
     color: #B4CCE9;
-}
-
-@media (max-width: 1200px) {
-    .footer {
-        padding: 60px 50px;
-    }
-}
-
-@media (max-width: 767px) {
-    .footer {
-        padding: 40px 40px;
-    }
-}
-
-@media (max-width: 480px) {
-    .footer {
-        padding: 40px 5px;
-    }
-
-    .footer .inner {
-        width: 100%;
-    }
 }
 
 .footer h6 {
@@ -1072,4 +730,205 @@ body a:hover {
     display: inline;
     font-size: 2rem;
     padding: 0 3px;
+}
+/* Footer Section
+--------------------------------*/
+
+@media (max-width: 1200px) {
+    .slide-box .text {
+        padding: 15px 120px 10px 20px;
+        margin-top: 120px;
+
+    }
+
+    .slide-box .text h1 {
+        line-height: 1.20312em;
+    }
+
+    .slide-box .text p {
+        font-size: 1.2rem;
+        line-height: 1.20312em;
+    }
+}
+
+@media (max-width: 991px) {
+
+    .slide-box .text {
+        padding: 15px 100px 10px 20px;
+        margin-top: 100px;
+    }
+
+    .slide-box .text h1 {
+        line-height: 1.20312em;
+    }
+
+    .slide-box .text p {
+        font-size: 1.0rem;
+        margin-bottom: 1.1em;
+        line-height: 1.20312em;
+        margin-top: 0;
+    }
+
+}
+
+@media (max-width: 767px) {
+
+    .slide-box .text {
+        padding: 10px 50px;
+        margin-top: 90px;
+        text-align: center;
+    }
+
+    .slide-box .text p {
+        margin-bottom: 1.1em;
+        font-size: 1rem;
+        line-height: 1.20312em;
+        margin-top: 0;
+    }
+
+    .slide-box .text h1 {
+        font-size: 1rem;
+        line-height: 1.20312em;
+        font-weight: 700;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .slide-box .text {
+        padding: 10px 10px;
+        margin-top: 80px;
+    }
+
+    .slide-box .text p {
+        font-size: 1rem;
+        margin-bottom: 1.1em;
+        /*font-weight: 700;*/
+        line-height: 1.42857em;
+        margin-top: 0;
+    }
+
+    .slide-box .text h1 {
+        line-height: 1.20312em;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .features p {
+        font-size: 20px; 
+    }
+
+    .features .step {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .features .step .txt {
+        padding: 0;
+    }
+}
+
+@media (max-width: 767px) {
+    .features .step .icon img {
+        width: 100px;
+        height: 100px;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .features .step .txt {
+        text-align: center;
+    }
+
+    .features .step .icon img {
+        width: 70px;
+        height: 70px;
+        margin: 0;
+    }
+    .features .step .icon {
+        text-align: center;
+    }
+
+}
+
+@media (max-width: 991px) {
+
+    .partners p {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .partners p {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 480px) {
+
+
+    .partners p {
+        padding: 0 20px;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .testimonies .testimony blockquote {
+        /*margin-left: 0px;*/
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .catalogue {
+        padding: 3rem 12rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .catalogue {
+        padding: 2.5rem 5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .catalogue {
+        padding: 1rem 1.2rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .features .section-title {
+        padding: 0 1.5rem;
+    }
+}
+
+@media (max-width: 1200px) {
+    .footer {
+        padding: 60px 50px;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer {
+        padding: 40px 40px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer {
+        padding: 40px 5px;
+    }
+
+    .footer .inner {
+        width: 100%;
+    }
 }
