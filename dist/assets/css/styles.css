@@ -687,14 +687,14 @@ body a:hover {
 --------------------------------*/
 .footer {
     padding: 50px 120px 60px;
-    background-color: #011936;
+    background-color: #195C96;
     font-size: 16px;
     height: auto;
-    color: #B4CCE9;
+    color: #fff;
 }
 
 .footer h6 {
-    color: #FFFFFF;
+    color: #fff;
     padding: 5px 10px 0px;
 }
 
@@ -715,8 +715,7 @@ body a:hover {
 }
 
 .footer a:hover, .footer button:hover {
-    /*text-decoration: underline;*/
-     color: #E6FEFF;
+     color: #25D366;
 }
 
 .footer img {
@@ -729,7 +728,6 @@ body a:hover {
 .footer .social a {
     display: inline;
     font-size: 2rem;
-    padding: 0 3px;
 }
 /* Footer Section
 --------------------------------*/
