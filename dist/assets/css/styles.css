@@ -300,58 +300,60 @@ body a:hover {
     /* background-color: #f0f6f7; */
 }
 
-/* product Section
+/* value-prop Section
 --------------------------------*/
-
-#product {
+#value-prop {
     background: #fff;
     padding: 10px 0;
-  }
-#product .section-header h3 {
+}
+
+#value-prop .section-header h3 {
     font-size: 36px;
     color: #171819;
     text-align: center;
     font-weight: 500;
-  }
-  #product .section-header p {
+}
+
+#value-prop .section-header p {
     margin: auto;
     font-size: 1.1rem;
     padding-top: 25px;
     padding-bottom: 40px;
     color:#171819;
     width: 90%;
-  }
-#product .section-header p span {
-      color: #195C96;
-      font-weight: bold;
-  }
+}
+
+#value-prop .section-header p span {
+    color: #195C96;
+    font-weight: bold;
+}
   
-  #product .product-container .background {
+#value-prop .product-container .background {
     margin: 20px 0;
-  }
+}
 
   
-  #product .product-container .title {
+#value-prop .product-container .title {
     color: #333;
     font-weight: 700;
     font-size: 32px;
-  }
+}
   
-  #product .product-container p {
+#value-prop .product-container p {
     line-height: 26px;
-  }
+}
   
-  #product .product-container p:last-child {
+#value-prop .product-container p:last-child {
     margin-bottom: 0;
   }
   
-  #product .product-container .icon-box {
+#value-prop .product-container .icon-box {
     background: #fff;
     background-size: cover;
     padding: 0 0 30px 0;
-  }
+}
   
-  #product .product-container .icon-box .icon {
+#value-prop .product-container .icon-box .icon {
     float: left;
     background: #fff;
     width: 64px;
@@ -377,117 +379,115 @@ body a:hover {
     border-radius: 50%;
     border: 2px solid #252921;
     transition: all 0.3s ease-in-out;
-  }
+}
   
-  #product .product-container .icon-box .icon i {
+#value-prop .product-container .icon-box .icon i {
     color: #007bff;
     font-size: 24px;
-  }
+}
   
-  #product .product-container .icon-box:hover .icon {
+#value-prop .product-container .icon-box:hover .icon {
     background: #007bff;
-  }
+}
   
-  #product .product-container .icon-box:hover .icon i {
+#value-prop .product-container .icon-box:hover .icon i {
     color: #fff;
-  }
+}
   
-  #product .product-container .icon-box .title {
+#value-prop .product-container .icon-box .title {
     margin-left: 80px;
     font-weight: 600;
     margin-bottom: 5px;
     font-size: 18px;
-  }
+}
   
-  #product .product-container .icon-box .title a {
+#value-prop .product-container .icon-box .title a {
     color: #252921;
-  }
+}
   
-  #product .product-container .icon-box .description {
+#value-prop .product-container .icon-box .description {
     margin-left: 80px;
     line-height: 24px;
     font-size: 14px;
-  }
+}
 
-  #product .section-header h3 {
-      padding-bottom: 30px;
-  }
+#value-prop .section-header h3 {
+    padding-bottom: 30px;
+}
 
-  #product .section-header h3 span {
-      font-size: 2rem;
-      font-weight: bold;
-      color: #195C96;
-  }
+#value-prop .section-header h3 span {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #195C96;
+}
 
-  #product .section-header p {
-      padding-top: 20px;
-      padding-bottom: 20px;
-      font-size: 1.1rem;
-      width: 70%;
-  }
+#value-prop .section-header p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 1.1rem;
+    width: 70%;
+}
 
-  #product .section-header img {
-      align-content: center;
-  }
+#value-prop .section-header img {
+    align-content: center;
+}
 
-  #product .card-deck {
+#value-prop .card-deck {
       margin-bottom: 50px;
   }
 
-  #product .card-deck .card {
-      border-color: #fff;
-      text-align: center;
-  }
+#value-prop .card-deck .card {
+    border-color: #fff;
+    text-align: center;
+}
 
-  #product .card-deck h5 {
+#value-prop .card-deck h5 {
       font-size: 1.5rem;
       color: #195C96;
   }
 
-  #product .card-deck p {
-      font-size: 1rem;
-      color: #171819;
-      text-align: center;
-  }
+#value-prop .card-deck p {
+    font-size: 1rem;
+    color: #171819;
+    text-align: center;
+}
 
-  #product .card-deck  img {
+#value-prop .card-deck  img {
     max-height: 50%;
     max-width: 50%;
     padding-bottom: 10px;
-  }  
+}  
 
-  #product .short-description {
+#value-prop .short-description {
     font-size: 1.3rem;
     color: #171819;
     text-align: center;
 
   }
 
-  #product .product-extra {
+#value-prop .product-extra {
     padding-top: 20px;
-  }
+}
 
-  #product .row h3 {
-      font-size: 1.5rem;
-      color: #195C96;
-      padding-top: 30px;
-  }
+#value-prop .row h3 {
+    font-size: 1.5rem;
+    color: #195C96;
+    padding-top: 30px;
+}
 
-  #product .row p {
+#value-prop .row p {
     text-align: justify;
     padding-top: 10px; 
     font-size: 1rem;
     color: #171819;
-  }
+}
 
-  #product .row a {
-      font-size: 1.1rem;
-      color: #195C96;
-  }
+#value-prop .row a {
+    font-size: 1.1rem;
+    color: #195C96;
+}
 
-  /* Solutions Section
---------------------------------*/
-  
+/* Solutions Section */
   #solutions {
     padding: 60px 0;
     background: #195C96;
