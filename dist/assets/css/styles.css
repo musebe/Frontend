@@ -3,87 +3,69 @@ body {
     font-size: 15px;
     overflow-x: hidden;
     font-family: 'Ubuntu', sans-serif;
-    color: #76797E;
-
+    color: #040404;
     margin: 0;
 }
 
-
 h1, h2, h3, h4, h5, h6, button {
     font-family: 'Lato', sans-serif;
-    font-weight: 600;
+    /* font-weight: 600; */
 }
-
 h1 {
     font-size: 3rem;
 }
-
 h2 {
     font-size: 2.8rem;
 }
-
 h3 {
     font-size: 2.5rem;
 }
-
 h4 {
     font-size: 2.2rem;
 }
-
 h5 {
     font-size: 1.9rem;
 }
-
 h6 {
     font-size: 1.6rem;
 }
 
 /*buttons*/
-
 .btn-brand-accent {
-    color: #F2F5FA;
-    background-color: #195C96;
-    border: none;
-    border-radius: 10px;
-    font-size: 16px;
+    color: #FBFBFB;
+    background-color: #00D1A5;
+    border-radius: 30px;
+    font-size: 15px;
     padding: 12px 20px;
     display: inline-block;
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     transition: all .2s ease-in;
-    margin: 0 5px;
-    text-transform: uppercase;
     cursor: pointer;
 }
 
 .btn-brand-accent:hover, .btn-brand-accent[disabled]:hover {
-
-    background-color: #25D366;
-    color: #195c96;
+    background-color: #0092C3;
+    color: #040404;
 }
 
 @media (max-width: 1200px) {
     h1 {
         font-size: 3rem;
     }
-
     h2 {
         font-size: 2.8rem;
     }
-
     h3 {
         font-size: 2.5rem;
     }
-
     h4 {
         font-size: 2.2rem;
     }
-
     h5 {
         font-size: 1.9rem;
     }
-
     h6 {
         font-size: 1.6rem;
     }
@@ -93,76 +75,56 @@ h6 {
     h1 {
         font-size: 2.5rem;
     }
-
     h2 {
         font-size: 2.3rem;
     }
-
     h3 {
         font-size: 2.0rem;
     }
-
     h4 {
         font-size: 1.7rem;
     }
-
     h5 {
         font-size: 1.4rem;
     }
-
     h6 {
         font-size: 1.1rem;
     }
-
 }
 
 @media (max-width: 480px) {
-
     h1 {
         font-size: 2rem;
     }
-
     h2 {
         font-size: 1.8rem;
     }
-
     h3 {
         font-size: 1.5rem;
     }
-
     h4 {
         font-size: 1.2rem;
     }
-
     h5 {
         font-size: 1rem;
     }
-
     h6 {
         font-size: 1rem;
     }
-
     .btn-brand-accent {
         font-size: 14px;
         padding: 10px 7px;
     }
-
     .btn-brand-white {
         font-size: 14px;
         padding: 10px 7px;
     }
 }
 
-button, input {
-    outline: none;
-}
-
-
 @media (max-width: 767px) {
     body {
         margin: 0 0;
         overflow-x: hidden;
-
     }
 }
 
@@ -170,7 +132,6 @@ button, input {
     body {
         margin: 0;
         overflow-x: hidden;
-
     }
 }
 
@@ -181,7 +142,7 @@ body a {
 
 body a:hover {
     text-decoration: none;
-    color: #000003;
+    color: #040404;
 }
 
 .row {
@@ -192,7 +153,6 @@ body a:hover {
 .nav {
     justify-content: space-between;
 }
-
 
 .row {
     margin-right: 0;
@@ -205,70 +165,40 @@ body a:hover {
     font-style: normal;
 }
 
-
 .navbar-light .navbar-nav .nav-link {
     font-weight: 400;
     padding: 15px 0;
-    color: #171819;
+    color: #040404;
 }
 
 #login-button {
-    color: #195C96;
+    color: #040404;
     font-weight: bolder;
     padding-left: 60px;
 }
 
 #login-button:hover {
-    color: #25D366;
+    color: #00D1A5;
 
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    color:#195C96;
+    color:#0092C3;
     font-weight: bolder;
 }
 
 .navbar-fixed-top.scrolled {
-    background-color: rgba(255, 255, 255, 0.95) !important;
+    background-color: #FBFBFB !important;
     transition: background-color 500ms linear;
 }
 
 .bg-light {
-    background-color: #FFF !important;
+    background-color: #FBFBFB !important;
     padding: 1rem 0.5rem;
 }
 
-.logo {
-    color: #011936 !important;
-    font-size: 2rem;
-    font-weight: 600;
-    font-family: 'Courier New', sans-serif;
-    text-transform: uppercase;
-}
-
-.logo-white, .logo-white span {
-    color: #ffffff !important;
-}
-
-.logo span {
-    color: #5D7FCC;
-    text-transform: uppercase;
-    padding: 10px;
-}
-
 .jumbotron {
-    background: 
-        linear-gradient(to left,
-        rgba(25, 92, 150, 0.4), 
-        rgba(37, 211, 54, 0.25)
-        ),
-        url(../img/phone-on-table.jpg);
-    height: 660px;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    padding-bottom: 3%;
+    height: 700px;
 }
 .jumbotron p span {
     font-weight: bold;
@@ -277,7 +207,7 @@ body a:hover {
 .jumbotron .text h1 {
     font-size: 2.4rem;
     line-height: 1em;
-    color: #fff;
+    color: #040404;
     padding-top: 150px;
     padding-bottom: 50px;
 }
@@ -285,7 +215,7 @@ body a:hover {
 .jumbotron .text p {
     font-size: 1.2rem;
     line-height: 1.50312em;
-    color: #171819;
+    color: #040404;
     text-align: justify;
     padding-bottom: 30px
 }
