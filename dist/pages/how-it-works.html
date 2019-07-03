@@ -7,32 +7,116 @@
     <title>Saada</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="../assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Saada custom styles -->
-    <link href="assets/css/styles.css" rel="stylesheet"/>
+    <link href="../assets/css/styles.css" rel="stylesheet"/>
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap" rel="stylesheet"/>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   </head>
 
   <body>
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-fixed-top">
+      <div class="container-fluid d-flex justify-content-between mx-md-5">
+        <!--Saada logo-->
+        <a class="navbar-brand logo" href="../index.html">
+          <img src="../assets/img/Saada-logo-01.png" style="height: 40px; padding-left: 100px" class="img-fluid img" alt="logo"/>
+        </a>
+        <!--Navigation bar items-->
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+          <ul class="navbar-nav">
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="product.html">Product</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="#">How It Works</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="pricing.html">Pricing</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a class="nav-link" href="../index.html#contact-us">Contact Us</a>
+            </li>
+            <li class="nav-item mx-4">
+              <a id="login-button" class="nav-link" href="#home">Login</a>
+            </li>
+            <li class="nav-item mx-4">
+              <button class="btn btn-brand-accent" href="#home">
+                Get Started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+              </button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Footer -->
+    <div class="row">
+      <div class="footer container-fluid">
+        <div class="row">
+          <div class="col-md-3 col-sm-6 inner">
+            <h6>
+              Saada
+            </h6>
+            <div class="social">
+              <a href="https://twitter.com/saada" target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a><br/>
+              <a href="https://facebook.com/saada" target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a><br/>
+              <a href="https://instagram.com/saada" target="_blank">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 inner">
+            <h6>Product</h6>
+            <a href="#solution">Solution</a>
+            <a href="#about-us">About Us</a>
+            <a href="#product">Product</a>
+            <a href="#how-it-works">How It Works</a>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 inner">
+            <h6>Company</h6>
+            <a href="#contact-us">Contact Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+  
+          <div class="col-md-3 col-sm-6 inner">
+            <h6>Accra</h6>
+            <a>20 Aluguntugui Street</a>
+            <h6>Nairobi</h6>
+            <a>Pinetree Plaza, Kaburu Dr</a>
+          </div>
+        </div>
+        <div class="col-md-12">
+          <p style="color: #ffffff">Saada. @ 2019</p>
+        </div>
+      </div>
+    </div>
+
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
-    <script> window.jQuery || document.write('<script src="assets/vendors/jquery-3.3.1.slim.min.js"><\/script>'); </script>
-    
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+
+    <script> window.jQuery || document.write('<script src="assets/vendors/jquery-3.3.1.slim.min.js"><\/script>');</script>
+
+    <script src="../assets/vendors/bootstrap/js/bootstrap.min.js"></script>
 
     <script type="text/javascript">
       $(function() {
         $(document).scroll(function() {
-          var $nav = $('.navbar-fixed-top');
-          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
+          var $nav = $(".navbar-fixed-top");
+          $nav.toggleClass("scrolled", $(this).scrollTop() > $nav.height());
         });
       });
     </script>
