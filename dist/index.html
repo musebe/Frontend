@@ -22,12 +22,15 @@
 
   <body>
     <!--Navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light navbar-fixed-top">
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top navbar-fixed-top">
       <div class="container-fluid d-flex justify-content-between mx-md-5">
+        
         <!--Saada logo-->
         <a class="navbar-brand logo" href="#home">
           <img src="assets/img/Saada-logo-01.png" style="height: 40px; padding-left: 100px" class="img-fluid img" alt="logo"/>
         </a>
+        <!--Saada logo-->
+
         <!--Navigation bar items-->
         <div class="collapse navbar-collapse" id="navbarsExampleDefault">
           <ul class="navbar-nav">
@@ -53,10 +56,13 @@
             </li>
           </ul>
         </div>
+        <!--Navigation bar items-->
+
       </div>
     </nav>
+    <!--Navigation bar-->
 
-    <!-- Jumbotron for a primary marketing message and call to action -->
+    <!-- Jumbotron - primary marketing message and call to action -->
     <section id="home">
       <div class="jumbotron">
         <div class="container">
@@ -82,7 +88,7 @@
       </div>
     </section>
 
-    <!-- Product Section -->
+    <!-- Value Proposition Section -->
     <section id="value-prop">
       <div class="container clearfix">
           <header class="section-header">
@@ -134,7 +140,7 @@
         </div>
     </section>
 
-    <!-- Solutions Section -->
+    <!-- Use Case Section -->
     <section id="solutions" class="wow fadeIn">
         <div class="container">
           <header class="section-header">
@@ -216,10 +222,10 @@
             <div class="social">
               <a href="https://twitter.com/saada" target="_blank">
                 <i class="fa fa-twitter"></i>
-              </a><br/>
+              </a>
               <a href="https://facebook.com/saada" target="_blank">
                 <i class="fa fa-facebook"></i>
-              </a><br/>
+              </a>
               <a href="https://instagram.com/saada" target="_blank">
                 <i class="fa fa-instagram"></i>
               </a>
@@ -269,5 +275,18 @@
         });
       });
     </script>
+
+    <script>
+      $(window).scroll(function(e) {
+
+      // add/remove class to navbar when scrolling to hide/show
+      var scroll = $(window).scrollTop();
+      if (scroll >= 150) {
+          $('.navbar').addClass("navbar-hide");
+      } else {
+          $('.navbar').removeClass("navbar-hide");
+      }
+    </script>
+});
   </body>
 </html>
