@@ -7,7 +7,7 @@
     <title>Saada</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
 
     <!-- Saada custom styles -->
@@ -21,58 +21,54 @@
   </head>
 
   <body>
-    <!--Navigation bar-->
-    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top navbar-fixed-top">
-      <div class="container-fluid d-flex justify-content-between mx-md-5">
-        
-        <!--Saada logo-->
-        <a class="navbar-brand logo" href="#home">
-          <img src="assets/img/Saada-logo-01.png" style="height: 40px; padding-left: 100px" class="img-fluid img" alt="logo"/>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
+      <div class="container">  
+        <!-- Navbar header -->
+        <a class="navbar-brand" href="#top">
+          <img src="assets/img/Saada-logo-01.png" class="logo" alt="logo"/>
         </a>
-        <!--Saada logo-->
-
-        <!--Navigation bar items-->
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-          <ul class="navbar-nav">
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="pages/product.html">Product</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navbar header end -->
+        <!-- Navbar items -->
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="nav navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="pages/product.html">Features</a>
             </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="pages/how-it-works.html">How It Works</a>
+            <li class="nav-item">
+              <a class="nav-link" href="pages/how-it-works.html">Solution</a>
             </li>
-            <li class="nav-item mx-4">
-                <a class="nav-link" href="pages/pricing.html">Pricing</a>
-            </li>
-            <li class="nav-item mx-4">
-              <a class="nav-link" href="#contact-us">Contact Us</a>
-            </li>
-            <li class="nav-item mx-4">
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="nav-item">
               <a id="login-button" class="nav-link" href="#home">Login</a>
             </li>
-            <li class="nav-item mx-4">
+            <li class="nav-item">
               <button class="btn btn-brand-accent" href="#home">
                 Get Started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
               </button>
             </li>
           </ul>
         </div>
-        <!--Navigation bar items-->
-
+        <!-- Navbar items end -->
       </div>
     </nav>
-    <!--Navigation bar-->
+    <!-- Navbar end -->
 
     <!-- Jumbotron - primary marketing message and call to action -->
     <section id="home">
-      <div class="jumbotron">
+      <div class="jumbotron jumbotron-fliud">
         <div class="container">
           <div class="row">
             <div class="col-md-6">
               <div class="typer-holder text">
                 <!-- Jumbotron text -->
                 <h1>
-                  Automate ticket sales & process payments over <br/>
-                  <img class="img-fluid" src="assets/img/whatsapp-50.png"><span> WhatsApp</span>
+                  Automate ticket sales & process payments over
+                  <img class="whatsapp img-fluid" src="assets/img/whatsapp-50.png"><span> WhatsApp</span>
                 </h1>
                 <p>Automate how your customers pay for your goods or services by using the most popular messaging platform</p>
                 <!-- Get started button -->
@@ -90,9 +86,9 @@
 
     <!-- Value Proposition Section -->
     <section id="value-prop">
-      <div class="container clearfix">
-          <header class="section-header">
-            <h3><span>Bringing conversational sales to the ticketing industry</span></h3>
+      <div class="container">
+          <header class="section">
+            <h3>Bringing conversational sales to the ticketing industry</h3>
             <p class="short-description">
               Our platform will automate your ticket sales and mobile money payment processing on Whatsapp. We provide you with a dashboard to keep track of your sales and reach out to customers with promotions and marketing material.
             </p>
@@ -131,8 +127,8 @@
               </div>
             </div>
           </div>
-          <footer class="section-header">
-            <h3><span>Get early access to the Whatsapp Business API</span></h3>
+          <footer class="section">
+            <h3>Get early access to the Whatsapp Business API</h3>
             <p class="short-description">
                 The Whatsapp Business API is complicated due to its end-to-end encryption and getting permission is hard. We make it easy and quick to get a verified Whatsapp Business API phone number for clients that want a dedicated line. We also offer a shared Saada number that you can setup and use in minutes.
             </p>
@@ -141,37 +137,33 @@
     </section>
 
     <!-- Use Case Section -->
-    <section id="solutions" class="wow fadeIn">
-        <div class="container">
-          <header class="section-header">
-            <h3>Use cases</h3>
-          </header>
-          <div class="container">
-            <div class="card-deck">
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Events</h5>
-                    <img src="assets/img/teamwork.png" alt="events"/>
-                    <p class="card-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Entertainment</h5>
-                    <img src="assets/img/concert.png" alt="entertainment"/>
-                    <p class="card-text">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</p>
-                  </div>
-                </div>
-                <div class="card">
-                  <div class="card-body">
-                    <h5 class="card-title">Transportation</h5>
-                    <img src="assets/img/travel.png" alt="transportation"/>
-                    <p class="card-text">Road, rail, or air enable travellers book their trip from your selection of destinations.</p>
-                  </div>
-                </div>
-              </div>
+    <section id="usecase">
+      <div class="container">
+        <ul class="nav nav-tabs" id="usecaseTab" role="tablist">
+          <li class="usecasetitle"><a>Use Cases</a></li>
+          <li class="nav-item">
+            <a class="nav-link active" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="entertainment-tab" data-toggle="tab" href="#entertainment" role="tab" aria-controls="entertainment" aria-selected="false">Entertainment</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="travel-tab" data-toggle="tab" href="#travel" role="tab" aria-controls="travel" aria-selected="false">Travel</a>
+          </li>
+        </ul>
+        <div class="tab-content" id="usecaseTabContent">
+          <div class="tab-pane fade show active" id="events" role="tabpanel" aria-labelledby="events-tab">
+            <span class="events-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</span>
+          </div>
+          <div class="tab-pane fade" id="entertainment" role="tabpanel" aria-labelledby="entertainment-tab">
+            <span class="card-text">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</span>
+          </div>
+          <div class="tab-pane fade" id="travel" role="tabpanel" aria-labelledby="travel-tab">
+            <span class="card-text">Road, rail, or air enable travellers book their trip from your selection of destinations.</span>
+          </div>
         </div>
-      </section>
+      </div>
+    </section>
 
     <!-- Contact us section -->
     <section id="contact-us">
@@ -179,7 +171,7 @@
         <div class="row">
           <div class="col-md-8">
             <form>
-              <p class="h4 mb-4">Contact us</p>
+              <p class="h4 mb-4">Contact Us</p>
               <!-- Name -->
               <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
               <!-- Email -->
@@ -198,14 +190,13 @@
                 <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
               </div>
               <!-- Send button -->
-              <button class="btn btn-info btn-block" type="submit">Send</button>
+              <button class="btn btn-info btn-block" type="submit">Submit</button>
             </form>
           </div>
           <!-- Contact us drawing/image-->
           <div class="col-md-4">
             <img id="logo-contact-us" class="img-fluid img" src="assets/img/Saada-logo-01.png" alt="logo">
-            <img id="image-contact-us" class="img-fluid" src="assets/img/moneyphone.png">
-            <p>A revolution in e-ticketing</p>
+            <img id="image-contact-us" class="img-fluid" src="assets/img/saada-contact-us.png">
           </div>
         </div>
       </div>
@@ -215,78 +206,53 @@
     <div class="row">
       <div class="footer container-fluid">
         <div class="row">
-          <div class="col-md-3 col-sm-6 inner">
-            <h6>
-              Saada
-            </h6>
+          <div class="col-md-3 socialmedia inner">
+            <img id="logo-footer" class="img-fluid img" src="assets/img/Saada-logo-01.png" alt="logo">
             <div class="social">
-              <a href="https://twitter.com/saada" target="_blank">
+              <a href="#" target="_blank">
                 <i class="fa fa-twitter"></i>
               </a>
-              <a href="https://facebook.com/saada" target="_blank">
+              <a href="#" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
-              <a href="https://instagram.com/saada" target="_blank">
+              <a href="#" target="_blank">
                 <i class="fa fa-instagram"></i>
               </a>
             </div>
           </div>
 
-          <div class="col-md-3 col-sm-6 inner">
+          <div class="col-md-3 product inner shortcut">
             <h6>Product</h6>
-            <a href="#solution">Solution</a>
-            <a href="#about-us">About Us</a>
+            <a href="#home">Home</a>
+            <a href="#features">Features</a>
             <a href="#product">Product</a>
-            <a href="#how-it-works">How It Works</a>
           </div>
 
-          <div class="col-md-3 col-sm-6 inner">
+          <div class="col-md-3 company inner shortcut">
             <h6>Company</h6>
             <a href="#contact-us">Contact Us</a>
             <a href="#">Privacy Policy</a>
             <a href="#">Terms of Service</a>
           </div>
 
-          <div class="col-md-3 col-sm-6 inner">
+          <div class="col-md-3 address inner shortcut">
             <h6>Accra</h6>
             <a>20 Aluguntugui Street</a>
             <h6>Nairobi</h6>
             <a>Pinetree Plaza, Kaburu Dr</a>
           </div>
         </div>
-        <div class="col-md-12">
-          <p style="color: #ffffff">Saada. @ 2019</p>
+        <div class="col-md-12 copyright">
+          <p>&copy; Saada 2019</p>
         </div>
       </div>
     </div>
+    <!-- Footer end -->
     
     <!-- Bootstrap core JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    
-    <script> window.jQuery || document.write('<script src="assets/vendors/jquery-3.3.1.slim.min.js"><\/script>'); </script>
-    
+    <script> window.jQuery || document.write('<script src="assets/vendors/jquery-3.3.1.slim.min.js"><\/script>');</script>
     <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
-
-    <script type="text/javascript">
-      $(function() {
-        $(document).scroll(function() {
-          var $nav = $('.navbar-fixed-top');
-          $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-        });
-      });
-    </script>
-
-    <script>
-      $(window).scroll(function(e) {
-
-      // add/remove class to navbar when scrolling to hide/show
-      var scroll = $(window).scrollTop();
-      if (scroll >= 150) {
-          $('.navbar').addClass("navbar-hide");
-      } else {
-          $('.navbar').removeClass("navbar-hide");
-      }
-    </script>
-});
+    <script src="assets/scripts/script.js"></script>
   </body>
 </html>
