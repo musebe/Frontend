@@ -7,49 +7,49 @@
     <title>Saada</title>
 
     <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- Saada custom styles -->
     <link href="assets/css/styles.css" rel="stylesheet"/>
 
     <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans&display=swap" rel="stylesheet">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="shortcut icon" href="assets/img/favicons/android-chrome-384x384.png" type="image/png" />
   </head>
 
   <body>
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-md navbar-light bg-light navbar-fixed-top">
-      <div class="container">  
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+      <div class="container-fluid">  
         <!-- Navbar header -->
         <a class="navbar-brand" href="#top">
-          <img src="assets/img/Saada-logo-01.png" class="logo" alt="logo"/>
+          <img src="assets/img/saada-logo-white.png" class="my-auto logo" alt="logo"/>
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
-          <span class="navbar-toggler-icon"></span>
+        <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
+          <span class="custom-toggler navbar-toggler-icon"></span>
         </button>
         <!-- Navbar header end -->
         <!-- Navbar items -->
-        <div class="collapse navbar-collapse" id="mynavbar">
+        <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
+            <!-- <li class="nav-item">
+              <a class="nav-link navbar-left" href="pages/product.html">Features</a>
+            </li> -->
             <li class="nav-item">
-              <a class="nav-link" href="pages/product.html">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="pages/how-it-works.html">Solution</a>
+              <a class="nav-link text-uppercase navbar-left" href="pages/how-it-works.html">How It Works</a>
             </li>
           </ul>
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav navbar-nav ml-auto">
             <li class="nav-item">
-              <a id="login-button" class="nav-link" href="#home">Login</a>
+              <a id="login-button" class="nav-link text-uppercase" href="#home">Login</a>
             </li>
             <li class="nav-item">
-              <button class="btn btn-brand-accent" href="#home">
-                Get Started &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
-              </button>
+              <a id="login-button" class="nav-link text-uppercase" href="#home">
+                Get Started
+              </a>
             </li>
           </ul>
         </div>
@@ -61,22 +61,27 @@
     <!-- Jumbotron - primary marketing message and call to action -->
     <section id="home">
       <div class="jumbotron jumbotron-fliud">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-6">
-              <div class="typer-holder text">
+        <div class="container-fluid">
+          <div class="row h-650">
+            <div class="col-md-7 home-img">
+              <img class="img-fluid" src="assets/img/saada-jumbotron.png">
+            </div>
+            <div class="col-md my-auto">
+              <div class="typer-holder text mx-auto d-block">
                 <!-- Jumbotron text -->
                 <h1>
-                  Automate ticket sales & process payments over
-                  <img class="whatsapp img-fluid" src="assets/img/whatsapp-50.png"><span> WhatsApp</span>
+                  Automate ticket sales & process payments over<span> WhatsApp</span>
                 </h1>
-                <p>Automate how your customers pay for your goods or services by using the most popular messaging platform</p>
+                <p>Automate how your customers pay for your goods or services by using the most popular messaging platform.</p>
                 <!-- Get started button -->
-                <a href="#home" class="padding">
-                  <button class="btn btn-brand-accent">
-                    Try it for free &nbsp;&nbsp;<i class="fa fa-angle-right"></i>
+                <div class="row signup">
+                  <form class="col-md-8 my-auto">
+                    <input type="email" id="ContactFormEmail" class="form-control" placeholder="E-mail">
+                  </form>
+                  <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit">
+                    Get started
                   </button>
-                </a>
+                </div>
               </div>
             </div>
           </div>
@@ -86,132 +91,165 @@
 
     <!-- Value Proposition Section -->
     <section id="value-prop">
-      <div class="container">
-          <header class="section">
-            <h3>Bringing conversational sales to the ticketing industry</h3>
+      <div class="container-fluid">
+        <header class="row section h-100">
+          <div class="col-md my-auto headertext">
+            <h3>Saada is bringing conversational sales to the ticketing industry</h3>
             <p class="short-description">
-              Our platform will automate your ticket sales and mobile money payment processing on Whatsapp. We provide you with a dashboard to keep track of your sales and reach out to customers with promotions and marketing material.
+              Our platform will automate your ticket sales and mobile money payment processing on Whatsapp. We provide you with a dashboard to keep track of your sales and reach out to customers with notifications and marketing material.
             </p>
-          </header>
-          <div class="card-deck">
-            <div class="card">
-              <div class="card-body">
-                <img class="card-img" src="assets/img/pay-per-click.png" alt="customer-satisfaction"/>
-                <h5 class="card-title">Improve the sales process</h5>
-                <p class="card-text">Processes multiple customer requests simultaneously 24/7/365 and increase the speed of serving customers.</p>
-                <p class="card-text">Manage and track your sales with real time reporting and analytics from any device.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img class="card-img" src="assets/img/pay-per-click.png" alt="customer-satisfaction"/>
-                <h5 class="card-title">Gain useful data insights</h5>
-                <p class="card-text">Easily store customer details and segment customers for future marketing.</p>
-                <p class="card-text">Easily analyse keywords, sentiments, and customer segments to get deeper insights on you customers.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img class="card-img" src="assets/img/tax.png" alt="customer-satisfaction"/>
-                <h5 class="card-title">Reduce overhead costs</h5>
-                <p class="card-text">Reduce staff time for routine customer service and marketing costs over time.</p>
-                <p class="card-text">Automate FAQs to free up customer service reps to focus on high-value conversations and tasks.</p>
-              </div>
-            </div>
-            <div class="card">
-              <div class="card-body">
-                <img class="card-img" src="assets/img/conversation.png" alt="customer-satisfaction"/>
-                <h5 class="card-title">Reduce theft and fraud</h5>
-                <p class="card-text">Reduce risks related to the handling of cash by agents and prevent the risk of forged tickets.</p>
-                <p class="card-text">Process M-Pesa payments directly to your account on messaging platforms.</p>
-              </div>
+          </div>
+          <div class="col-md my-auto">
+            <img id="messaging-img" class="img-fluid mx-auto d-block" src="/dist/assets/img/saada-contact-us.png" alt="messaging image">
+          </div>
+        </header>
+        <div class="card-columns">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/pay-per-click.png" alt="reduce overhead cost"/>
+              <h5 class="card-title">Reduce overhead costs</h5>
+              <p class="card-text"> Eliminate physical tickets and reduce staff time for sales and routine customer care.</p>
             </div>
           </div>
-          <footer class="section">
-            <h3>Get early access to the Whatsapp Business API</h3>
-            <p class="short-description">
-                The Whatsapp Business API is complicated due to its end-to-end encryption and getting permission is hard. We make it easy and quick to get a verified Whatsapp Business API phone number for clients that want a dedicated line. We also offer a shared Saada number that you can setup and use in minutes.
-            </p>
-          </footer>
-        </div>
-    </section>
-
-    <!-- Use Case Section -->
-    <section id="usecase">
-      <div class="container">
-        <ul class="nav nav-tabs" id="usecaseTab" role="tablist">
-          <li class="usecasetitle"><a>Use Cases</a></li>
-          <li class="nav-item">
-            <a class="nav-link active" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Events</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="entertainment-tab" data-toggle="tab" href="#entertainment" role="tab" aria-controls="entertainment" aria-selected="false">Entertainment</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" id="travel-tab" data-toggle="tab" href="#travel" role="tab" aria-controls="travel" aria-selected="false">Travel</a>
-          </li>
-        </ul>
-        <div class="tab-content" id="usecaseTabContent">
-          <div class="tab-pane fade show active" id="events" role="tabpanel" aria-labelledby="events-tab">
-            <span class="events-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</span>
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/tax.png" alt="customer-satisfaction"/>
+              <h5 class="card-title">Easily manage sales</h5>
+              <p class="card-text">Manage and track your sales with real time reporting and analytics from any device.</p>
+              </div>
           </div>
-          <div class="tab-pane fade" id="entertainment" role="tabpanel" aria-labelledby="entertainment-tab">
-            <span class="card-text">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</span>
-          </div>
-          <div class="tab-pane fade" id="travel" role="tabpanel" aria-labelledby="travel-tab">
-            <span class="card-text">Road, rail, or air enable travellers book their trip from your selection of destinations.</span>
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/conversation.png" alt="customer-satisfaction"/>
+              <h5 class="card-title">Process payments</h5>
+              <p class="card-text">Accept and process payments directly to your account on messaging platforms.</p>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact us section -->
+    <!-- Use Case Section -->
+    <section id="usecase">
+      <div class="container-fluid">
+        <div class="row usecasetab">
+          <h1 class="col-md usecasetitle">Use Cases</h1>
+          <ul class="nav nav-tabs float-right" id="usecaseTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="entertainment-tab" data-toggle="tab" href="#entertainment" role="tab" aria-controls="entertainment" aria-selected="false">Entertainment</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="travel-tab" data-toggle="tab" href="#travel" role="tab" aria-controls="travel" aria-selected="false">Travel</a>
+            </li>
+          </ul>
+        </div>
+        <div class="tab-content" id="usecaseTabContent">
+          <div class="tab-pane fade show active row" id="events" role="tabpanel" aria-labelledby="events-tab">
+            <div class="col-md-6 ml-auto">
+              <p class="events-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade row" id="entertainment" role="tabpanel" aria-labelledby="entertainment-tab">
+            <div class="col-md-6 ml-auto">
+              <p class="card-text">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</p>
+            </div>
+          </div>
+          <div class="tab-pane fade row" id="travel" role="tabpanel" aria-labelledby="travel-tab">
+            <div class="col-md-6 ml-auto">
+              <p class="card-text">Road, rail, or air enable travellers book their trip from your selection of destinations.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features -->
+    <section id="features">
+      <div class="container-fluid">
+        <div class="chatbot-info">
+          <h3>Automate ticket sales over conversational interfaces</h3>
+          <header class="section">
+            <p>
+              Our chatbot enables your business to automate ticket sales. It guides customers through the steps of making a purchasing and processes their payment.
+            </p>
+          </header>
+        </div>
+        <div class="card-columns">
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/pay-per-click.png" alt="customer-satisfaction"/>
+              <h5 class="card-title">M-Pesa integration</h5>
+              <p class="card-text"> Our Safaricom API integration allows customers to pay directly to your business’ Paybill account without leaving Whatsapp.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/tax.png" alt="customer-satisfaction"/>
+              <h5 class="card-title">Sales reports</h5>
+              <p class="card-text">Your business dashboard provides real-time updates on sales and can generate sales reports on any device.</p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-body">
+              <img class="card-img" src="assets/img/conversation.png" alt="customer-satisfaction"/>
+              <h5 class="card-title">Ticket validation</h5>
+              <p class="card-text">Verify tickets by scanning the QR code embedded on the tickets or using our ussd short code.</p>
+            </div>
+          </div>
+        </div>
+        <div class="section-head">
+          <h3>Improve your engagement with customers</h3>
+        </div>
+        <div class="row bonus-features">
+          <div class="col-md-6">
+            <div class="feature">
+              <h5 class="">Notifications</h5>
+              <p class="">Send or automate updates and reminders to customers over WhatsApp or SMS.</p>
+            </div>
+            <div class="feature">
+              <h5 class="">Direct Marketing</h5>
+              <p class="">Access customer records from your dashboard and segment customers for targeted marketing and promotions over WhatsApp.</p>
+            </div>
+            <div class="feature">
+              <h5 class="">Data insights</h5>
+              <p class="">Easily analyzes your sales history and customer interactions to gain actionable insights.</p>
+            </div>
+          </div>
+          <div class="col-md my-auto">
+            <img id="features-img" class="img-fluid mx-auto d-block" src="/dist/assets/img/saada-contact-us.png" alt="messaging image">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us -->
     <section id="contact-us">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8">
-            <form>
-              <p class="h4 mb-4">Contact Us</p>
-              <!-- Name -->
-              <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
-              <!-- Email -->
-              <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
-              <!-- Subject -->
-              <label>Subject</label>
-              <select class="browser-default custom-select mb-4">
-                <option value="" disabled>Choose option</option>
-                <option value="1" selected>Interested</option>
-                <option value="2">Feedback</option>
-                <option value="3">Feature request</option>
-                <option value="4">Report a bug</option>
-              </select>
-              <!-- Message -->
-              <div class="form-group">
-                <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
-              </div>
-              <!-- Send button -->
-              <button class="btn btn-info btn-block" type="submit">Submit</button>
-            </form>
-          </div>
-          <!-- Contact us drawing/image-->
-          <div class="col-md-4">
-            <img id="logo-contact-us" class="img-fluid img" src="assets/img/Saada-logo-01.png" alt="logo">
-            <img id="image-contact-us" class="img-fluid" src="assets/img/saada-contact-us.png">
-          </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h3>Ready to signup?</h3>
+          <p>We’d love to talk to you about the value of conversational sales to your business.</p>
+        </div>
+        <div class="ml-auto contactus-buttons my-auto">
+          <button class="btn btn-brand-accent text-uppercase" type="submit">Talk to Sales</button>
+          <button class="btn btn-brand-accent text-uppercase" type="submit">Create account</button>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <div class="row">
+    <footer class="row">
       <div class="footer container-fluid">
         <div class="row">
-          <div class="col-md-3 socialmedia inner">
-            <img id="logo-footer" class="img-fluid img" src="assets/img/Saada-logo-01.png" alt="logo">
+          <div class="col-md-3 socialmedia">
+            <img id="logo-footer" class="img-fluid img" src="assets/img/saada-logo-white.png" alt="logo">
             <div class="social">
               <a href="#" target="_blank">
                 <i class="fa fa-twitter"></i>
               </a>
+              <!-- facebook icon -->
               <a href="#" target="_blank">
                 <i class="fa fa-facebook"></i>
               </a>
@@ -223,36 +261,40 @@
 
           <div class="col-md-3 product inner shortcut">
             <h6>Product</h6>
-            <a href="#home">Home</a>
-            <a href="#features">Features</a>
-            <a href="#product">Product</a>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#product">Product</a></li>
+            </ul>
           </div>
 
           <div class="col-md-3 company inner shortcut">
             <h6>Company</h6>
-            <a href="#contact-us">Contact Us</a>
-            <a href="#">Privacy Policy</a>
-            <a href="#">Terms of Service</a>
+            <ul>
+              <li><a href="#contact-us">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
           </div>
 
           <div class="col-md-3 address inner shortcut">
             <h6>Accra</h6>
-            <a>20 Aluguntugui Street</a>
+            <p>20 Aluguntugui Street<br> +233555491350</p>
             <h6>Nairobi</h6>
-            <a>Pinetree Plaza, Kaburu Dr</a>
+            <p>Pinetree Plaza, Kaburu Dr<br>+254705813764</p>
           </div>
         </div>
-        <div class="col-md-12 copyright">
+        <div class="footer-copyright text-left py-3">
           <p>&copy; Saada 2019</p>
         </div>
       </div>
-    </div>
+    </footer>
     <!-- Footer end -->
     
     <!-- Bootstrap core JavaScript -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script> window.jQuery || document.write('<script src="assets/vendors/jquery-3.3.1.slim.min.js"><\/script>');</script>
-    <script src="assets/vendors/bootstrap/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script src="assets/scripts/script.js"></script>
   </body>
 </html>

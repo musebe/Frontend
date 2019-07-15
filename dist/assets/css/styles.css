@@ -1,14 +1,15 @@
 /* Body */
 body {
-    font-size: 15px;
+    font-size: 17px;
     overflow-x: hidden;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     color: #064167;
     margin: 0;
+    padding: 0;
+    background-color: #FBFBFB;
 }
 h1, h2, h3, h4, h5, h6, button {
     font-family: 'Lato', sans-serif;
-    font-size: 20px;
 }
 body a {
     text-decoration: none;
@@ -24,31 +25,31 @@ body a:hover {
 /* Body end */
 
 /* Navigation Bar */
-.navbar .navbar-nav .nav-link {
-    font-weight: 400;
-    color: #040404;
+#navbar .nav-link {
+    color: #064167;
     margin-right: 15px;
     background-color: transparent;
+    padding: 7px 5px;
+    top: 50%;
+    font-size: 14px;
+    font-weight: 600
 }
-.navbar-light .navbar-nav .nav-link:hover {
-    color:#0092C3;
-    font-weight: bolder;
+#navbar .nav-link:hover {
+    opacity: 0.7;
 }
-.bg-light {
-    background-color: #FBFBFB !important;
+#navbar {
+    background:transparent;
+    background-color:transparent;
+    border-color:transparent; 
 }
 .logo {
-    height: 50px;
+    height: 36px;
 }
-.navbar-brand{
-    padding: 0;
+#mynavbar .nav-item {
+    height: 32px;
 }
-#login-button {
-    font-weight: bolder;
-    padding-left: 15px 5px;
-}
-#login-button:hover {
-    color: #00D1A5;
+#navbar .navbar-left {
+    color: #FBFBFB;
 }
 /* Navigation Bar end*/
 
@@ -56,8 +57,10 @@ body a:hover {
 .btn {
     color: #FBFBFB;
     background-color: #00D1A5;
-    border-radius: 30px;
-    padding: 12px 20px;
+    border-radius: 5px;
+    padding: 15px 10px !important;
+    font-size: 15px;
+    font-weight: 600;
     -webkit-transition: all .2s ease-in;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
@@ -66,134 +69,308 @@ body a:hover {
     border: none;
 }
 .btn:hover, .btn[disabled]:hover {
-    background-color: #0092C3;
+    opacity: 0.7;
     color: #FBFBFB;
 }
 /* Buttons end */
 
-/* Jumbotron Section */
-.jumbotron {
-    height: 500px;
-    margin-bottom: 0;
+/* Home Section */
+#home {
+    margin: 0;
 }
-.jumbotron .text h1 {
-    padding-top: 100px;
+#home .jumbotron {
+    margin: 0;
+    padding: 0;
 }
-.jumbotron .text p {
-    text-align: justify;
+#home .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+#home .row {
+    padding: 0;
+    margin: 0;
+    background-color: #FBFBFB;
+}
+#home .home-img {
+    padding-left: 0;
+}
+#home .col-md {
+    padding: 0 20px 0 10px;
+}
+#home .typer-holder {
+    text-align: left;
+    margin-top: 60px;
+}
+#home .text h1 {
+    padding-bottom: 20px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+#home .text p {
     padding-bottom: 25px;
+    font-size: 24px;
 }
-.jumbotron .text h1 span {
-    color: #25D366;
+#home .text h1 span {
+    color: #00D1A5;
 }
-.jumbotron .whatsapp {
-    height: 2em;
+#home .signup .col-md-8 {
+    margin: 0;
+    padding: 0;
 }
-/* Jumbotron Section end */
+#home .get-started {
+    margin-left: 10px;
+}
+#ContactFormEmail {
+    font-size: 19px;
+    border-color: #00D1A5;
+}
+/* Home Section end */
 
 /* Value Proposition Section */
 #value-prop {
-    background: #FBFBFB;
     padding: 10px 0;
+}
+#value-prop .headertext {
+    padding-left: 30px;
 }
 #value-prop .section h3 {
     text-align: center;
+    font-size: 36px;
+    padding: 20px 10px;
+    font-weight: 400;
 }
 #value-prop .section p {
     text-align: center;
+    font-size: 20px;
+    font-weight: 400;
 }
-#value-prop .section img {
-    align-content: center;
+#messaging-img {
+    height: 250px;
+}  
+#value-prop .card-columns {
+    margin: 70px 0 50px 0;
+    column-gap: 3em;
+    padding: 0 2em;
 }
-#value-prop .card-deck {
-    margin: 50px 0;
-}
-#value-prop .card-deck .card {
+#value-prop .card-columns .card {
     border: none;
     text-align: center;
+    background-color: transparent;
 }
-#value-prop .card-deck p {
-    text-align: center;
+#value-prop .card-columns .card:hover {
+    box-shadow: 0 4px 8px -5px black;
 }
-#value-prop .card-deck  img {
-    max-height: 50%;
-    max-width: 50%;
-    padding-bottom: 10px;
-}  
+#value-prop .card-columns img {
+    max-height: 40%;
+    max-width: 40%;
+    padding-bottom: 20px;
+}
+#value-prop .card-title {
+    font-weight: 500;
+    font-size: 24px;
+}
+#value-prop .card-text {
+    font-size: 18px;
+}
 /* Value Proposition Section end */
 
 /* Use Case Section */
 #usecase {
-    background-color: black;
     color: #FBFBFB;
+    width: 100%;
+    background-image: url("/dist/assets/img/pictures/concert-01.jpg");
+    background-size: 100% 100%; 
+    height: 650px;
+}
+#usecase .container-fluid {
+    padding: 0;
+    background-color: rgba(0, 209, 164, 0.30);
+    height: 650px;
+}
+#usecase .usecasetab {
+    padding: 30px 30px 0 30px;
 }
 .usecasetitle {
-    font-size: 18px;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0;
+}
+#usecaseTab {
+    border: none;
+}
+#usecase .nav-item {
+    font-size: 20px;
+    color: #FBFBFB;
+    font-weight: 600;
+}
+#usecase .nav-item .active {
+    background-color: transparent;
+    color: #00D1A5;
+    border: none;
+}
+#usecase .nav-link:hover {
+    border: none;
+    color: #00D1A5;
+}
+#usecase .tab-pane {
+    margin-top: 100px;
+}
+#usecase .tab-pane p {
+    font-size: 24px;
+    font-weight: 600;
 }
 /* Use Case Section end */
 
-/* Contact us Section */
-#contact-us {
-    background-color: #E9ECEF;
-    padding: 20px 0;
+/* Features Section */
+#features {
+    padding: 0 0 70px 0;
 }
-#contact-us .h4 {
-    padding: 0 12px;
+#features .chatbot-info {
+    margin: 70px 100px 50px 100px;
+    text-align: center;
 }
-#contact-us label {
-    padding: 0 12px;
+#features .chatbot-info h3 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0 0 10px 0;
 }
-/* Contact Us Section end */
+#features .chatbot-info p {
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+#features .card-columns {
+    margin: 30px 0 30px 0;
+    column-gap: 3em;
+    padding: 0 2em;
+}
+#features .card-columns .card {
+    border: none;
+    text-align: center;
+    background-color: transparent;
+}
+#features .card-columns img {
+    max-height: 40%;
+    max-width: 40%;
+    padding-bottom: 20px;
+}
+#features .card-title {
+    font-size: 24px;
+    font-weight: 500;
+}
+#features .card-text {
+    font-size: 18px;
+}
+#features .card-columns .card:hover {
+    box-shadow: 0 4px 8px -5px black;
+}
+#features .section-head {
+    text-align: center;
+    padding: 20px 20px 50px 20px;
+}
+#features .section-head h3 {
+    font-size: 40px;
+    font-weight: 500;
+    padding: 0;
+}
+#features .bonus-features h5 {
+    font-weight: 500;
+    font-size: 24px;
+}
+#features .bonus-features p {
+    font-size: 18px;
+}
+#features .feature {
+    padding: 10px 15px;
+}
+#features .feature:hover {
+    box-shadow: 0 4px 8px -5px black;
+}
+#features-img {
+    height: 300px;
+}  
+/* Features Section end */
+
+/* Contact Us */
+#contact-us .row {
+    margin-bottom: 100px;
+}
+#contact-us .row .col-md-6 {
+    margin: 0px 40px 0 20px;;
+}
+#contact-us .row .contactus-buttons {
+    margin-right: 100px;
+}
+#contact-us .row h3 {
+    font-size: 40px;
+    font-weight: 200;
+    color: #0A6DAD;
+}
+#contact-us .row p {
+    font-size: 24px;
+}
+#contact-us .btn {
+    margin-left: 20px;
+}
+/* Contact Us */
 
 /* Footer Section */
 .footer {
-    padding-top: 40px;
-    background-color: #00D1A5;
-    font-size: 16px;
-    height: 200px;
+    padding: 40px 15px 10px 15px;
+    background-color: #0A6DAD;
+    font-size: 18px;
     color: #FBFBFB;
 }
-.footer a:hover {
-    color: #0092C3;
+.footer h6 {
+    font-size: 24px;
+    font-weight: 600;
 }
-.fa-instagram, .fa-twitter, .fa-facebook {
-    font-size: 1.5em;
-    margin: 0 0.25em;
+.footer a:hover {
+    opacity: 0.7;
+    color: #FBFBFB;
+}
+#logo-footer {
+    height: 48px;
+}
+.fa {
+    color: #FBFBFB;
+    padding: 10px 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+.footer li {
+    padding: 5px 0;
+}
+.footer .footer-copyright {
+    margin-top: 40px;
+    padding: 0 20px;
 }
 /* Footer Section end */
 
-@media (max-width: 1200px) {
-    
-}
-
-@media (max-width: 991px) {
-    .slide-box .text {
-        padding: 15px 100px 10px 20px;
-        margin-top: 100px;
-    }
-    .slide-box .text h1 {
-        line-height: 1.20312em;
-    }
-    .slide-box .text p {
-        font-size: 1.0rem;
-        margin-bottom: 1.1em;
-        line-height: 1.20312em;
-        margin-top: 0;
-    }
-    .partners p {
-        padding: 0 50px;
-    }
-}
-
-@media (max-width: 767px) {
+/* Responsive design */
+@media (max-width: 992px) {
     body {
         margin: 0 0;
         overflow-x: hidden;
     }
-    
 }
 
-@media (max-width: 480px) {
+@media (max-width: 767px) {
+    #home img {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
     body {
         margin: 0;
         overflow-x: hidden;
@@ -209,18 +386,38 @@ body a:hover {
     #mynavbar .nav-link {
         padding: 1em 0;
     }
+    .navbar-toggler-icon {
+        color: #064167;
+    }
 
     /* jumbotron */
-    .jumbotron {
-        height: 420px;
+    #home {
+        /* height: 420px; */
     }
-    .jumbotron .text h1 {
+    #home .text h1 {
         padding-top: 1em;
         font-size: 1.7em;
     }
-    .jumbotron .text p {
+    #home .text p {
         font-size: 1.2em;
         padding-top: 20px;
+    }
+    #home img {
+        display: none;
+    }
+    #home .col-md {
+        color: #FBFBFB;
+        background-color: #064167;
+        
+    }
+    #home .signup .col-md-8 {
+        margin: 10px;
+        padding: 0;
+    }
+    #home .signup .btn {
+        margin-bottom: 20px;
+        margin: auto;
+        margin-bottom: 20px;
     }
 
     /* value prop */
@@ -235,7 +432,7 @@ body a:hover {
     #value-prop .section-header p {
         text-align: center;
     }
-    #value-prop .card-deck  img {
+    #value-prop .card-columns  img {
         max-height: 20%;
         max-width: 20%;
     }
@@ -268,31 +465,12 @@ body a:hover {
         padding: 10px 12px;
     }
 
-    /* contact us */
-    #contact-us {
-        padding-top: 80px;
-    }
-    #contact-us .col-md-8 {
-        padding-bottom: 30px;
-    }
-    #logo-contact-us {
-        display: none;
-    }
-    #image-contact-us {
-        display: block;
-        margin: auto;
-        margin-bottom: 60px;
-        margin-top: 40px;
-    }
-
     /* Footer */
     .footer .shortcut{
         display:none;
     }
     #logo-footer {
-        width: 40%;
-        display: block;
-        margin: auto;
+        height: 36px;
     }
     .social {
         margin: 1em 0;
