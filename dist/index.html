@@ -22,18 +22,19 @@
 
   <body>
     <!-- Navbar -->
-    <nav id="navbar" class="navbar navbar-expand-md fixed-top">
+    <nav id="navbar" class="navbar navbar-expand-md fixed-top navbar-light">
       <div class="container-fluid">  
         <!-- Navbar header -->
         <a class="navbar-brand" href="#top">
-          <img src="assets/img/saada-logo-white.png" class="my-auto logo" alt="logo"/>
+          <img src="assets/img/saada-logo-white.png" class="my-auto logo" alt="logo-1"/>
+          <img src="assets/img/saada-logo.png" class="my-auto logo-2" alt="logo-2"/>
         </a>
-        <button class="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar">
-          <span class="custom-toggler navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
         </button>
         <!-- Navbar header end -->
         <!-- Navbar items -->
-        <div class="collapse navbar-collapse">
+        <div id="mynavbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <!-- <li class="nav-item">
               <a class="nav-link navbar-left" href="pages/product.html">Features</a>
@@ -76,10 +77,10 @@
                 <!-- Get started button -->
                 <div class="row signup">
                   <form class="col-md-8 my-auto">
-                    <input type="email" id="ContactFormEmail" class="form-control" placeholder="E-mail">
+                    <input type="email" id="ContactFormEmail" class="form-control" placeholder="Your e-mail">
                   </form>
                   <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit">
-                    Get started
+                    Try for free
                   </button>
                 </div>
               </div>
@@ -149,7 +150,7 @@
         <div class="tab-content" id="usecaseTabContent">
           <div class="tab-pane fade show active row" id="events" role="tabpanel" aria-labelledby="events-tab">
             <div class="col-md-6 ml-auto">
-              <p class="events-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</p>
+              <p class="card-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</p>
             </div>
           </div>
           <div class="tab-pane fade row" id="entertainment" role="tabpanel" aria-labelledby="entertainment-tab">
@@ -181,7 +182,7 @@
           <div class="card">
             <div class="card-body">
               <img class="card-img" src="assets/img/pay-per-click.png" alt="customer-satisfaction"/>
-              <h5 class="card-title">M-Pesa integration</h5>
+              <h5 class="card-title">Mobile money integration</h5>
               <p class="card-text"> Our Safaricom API integration allows customers to pay directly to your business’ Paybill account without leaving Whatsapp.</p>
             </div>
           </div>
@@ -201,7 +202,7 @@
           </div>
         </div>
         <div class="section-head">
-          <h3>Improve your engagement with customers</h3>
+          <h3>Improve your costomer engagement</h3>
         </div>
         <div class="row bonus-features">
           <div class="col-md-6">
@@ -233,18 +234,20 @@
           <p>We’d love to talk to you about the value of conversational sales to your business.</p>
         </div>
         <div class="ml-auto contactus-buttons my-auto">
-          <button class="btn btn-brand-accent text-uppercase" type="submit">Talk to Sales</button>
+          <button class="btn btn-brand-accent text-uppercase" id="callsales" type="submit">Talk to Sales</button>
           <button class="btn btn-brand-accent text-uppercase" type="submit">Create account</button>
         </div>
       </div>
     </section>
 
     <!-- Footer -->
-    <footer class="row">
+    <footer id="footer" class="row">
       <div class="footer container-fluid">
         <div class="row">
           <div class="col-md-3 socialmedia">
-            <img id="logo-footer" class="img-fluid img" src="assets/img/saada-logo-white.png" alt="logo">
+            <div id="logo-footer">
+              <img  class="img-fluid img" src="assets/img/saada-logo-white.png" alt="logo">
+            </div>
             <div class="social">
               <a href="#" target="_blank">
                 <i class="fa fa-twitter"></i>

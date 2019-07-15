@@ -45,6 +45,9 @@ body a:hover {
 .logo {
     height: 36px;
 }
+.logo-2 {
+    display: none;
+}
 #mynavbar .nav-item {
     height: 32px;
 }
@@ -185,8 +188,8 @@ body a:hover {
 }
 #usecase .container-fluid {
     padding: 0;
-    background-color: rgba(0, 209, 164, 0.30);
-    height: 650px;
+    background-color: rgba(0, 209, 164, 0.187);
+    height: 100%;
 }
 #usecase .usecasetab {
     padding: 30px 30px 0 30px;
@@ -213,12 +216,23 @@ body a:hover {
     border: none;
     color: #00D1A5;
 }
+#usecaseTabContent {
+    margin-top: 70px;
+}
+#usecase .tab-pane .col-md-6 {
+    padding: 0;
+}
 #usecase .tab-pane {
-    margin-top: 100px;
+    margin: 0 40px;
 }
 #usecase .tab-pane p {
-    font-size: 24px;
-    font-weight: 600;
+    font-size: 20px;
+    font-weight: 700;
+    color: #FBFBFB;
+    /* background-color: rgba(251, 251, 251, 0.77);
+    border-radius: 25%;
+    box-shadow: 0 4px 8px -5px black; */
+    /* padding: 30px; */
 }
 /* Use Case Section end */
 
@@ -365,118 +379,240 @@ body a:hover {
 }
 
 @media (max-width: 767px) {
-    #home img {
-        display: none;
-    }
-}
-
-@media (max-width: 600px) {
     body {
         margin: 0;
         overflow-x: hidden;
     }
 
     /* navbar */
-    .logo {
-        height: 2em;
+    #navbar {
+        background-color: #f1f1f1;
     }
-    .navbar ul button {
+    .logo {
         display: none;
+    }
+    .logo-2 {
+        display: block;
+        height: 1.8em;
     }
     #mynavbar .nav-link {
         padding: 1em 0;
-    }
-    .navbar-toggler-icon {
         color: #064167;
     }
 
-    /* jumbotron */
+    /* home*/
     #home {
-        /* height: 420px; */
+        background-color: #FBFBFB;
+    }
+    #home img {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    body {
+        margin: 0;
+        overflow-x: hidden;
+    }
+
+    /* navbar */
+    #navbar {
+        background-color: #f1f1f1;
+    }
+    .logo {
+        display: none;
+    }
+    .logo-2 {
+        display: block;
+        height: 1.8em;
+    }
+    #mynavbar .nav-link {
+        padding: 1em 0;
+        color: #064167;
+    }
+
+    /* home*/
+    #home {
+        background-color: #FBFBFB;
     }
     #home .text h1 {
-        padding-top: 1em;
-        font-size: 1.7em;
+        padding-top: 1.7em;
+        font-size: 2em;
+        margin-bottom: 0;
+        text-align: center;
     }
     #home .text p {
         font-size: 1.2em;
-        padding-top: 20px;
+        padding-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 30px;
     }
     #home img {
         display: none;
     }
     #home .col-md {
-        color: #FBFBFB;
-        background-color: #064167;
-        
+        color: #064167;        
     }
     #home .signup .col-md-8 {
         margin: 10px;
         padding: 0;
+        text-align: center;
+    }
+    #ContactFormEmail {
+        text-align: center;
+        font-size: 1em;
+        height: 52px;
     }
     #home .signup .btn {
-        margin-bottom: 20px;
         margin: auto;
+        margin-top: 10px;
         margin-bottom: 20px;
+        width: 435px;
     }
 
     /* value prop */
     #value-prop {
         padding-top: 3em;
     }
-    #value-prop .section-header h3 {
+    #value-prop .section h3 {
         text-align: center;
-        font-weight: bold;
-        padding: 0.2em 0;
+        font-weight: 700;
+        font-size: 1.7em;
+        padding: 0.5em 0 1.1em 0;
     }
-    #value-prop .section-header p {
+    #value-prop .section p {
         text-align: center;
+        font-size: 1.07em;
+        margin-bottom: 60px;
+    }
+    #value-prop .card-columns {
+        padding: 0 45px;
     }
     #value-prop .card-columns  img {
-        max-height: 20%;
-        max-width: 20%;
+        max-height: 40%;
+        max-width: 40%;
     }
     #value-prop .card-body {
-        padding: 2em 0.5em;
+        padding: 1.5em 1em;
+        box-shadow: 0 4px 8px -5px black;
+        padding-bottom: 60px;
+    }
+    #value-prop .card-title {
+        font-size: 1.4em;
+        font-weight: 600;
     }
 
     /* use case */
     #usecase {
-        padding: 20px 0;
+        padding: 0;
         height: 440px;
     }
     #usecase .container {
         height: 420px;
         padding: 0;
     }
-    #usecase .tab-content {
-        padding: 100px 0 200px 0;
-    }
-    #usecaseTab {
-        padding: 0 18px;
-    }
-    .usecasetitle {
+    #usecase .usecasetitle {
         padding: 8px 10px 8px 4px;
-    }
-    #usecase .tab-pane {
-        padding: 0 18px;
+        font-size: 1.9em;
     }
     #usecase .nav-link {
-        padding: 10px 12px;
+        padding: 10px 5px;
+        font-size: 1em;
+    }
+    #usecaseTabContent {
+        margin-top: 120px;
+    }
+    #usecase .tab-content {
+        padding: 1.5em 0 1em 0;
+    }
+    #usecase .tab-pane {
+        padding: 0;
+        margin-top: 0.5em;
+        text-align: center;
+    }
+    #usecase .tab-pane .card-text {
+        font-size: 1em;
+        font-weight: 700;
+        padding: 5px;
+    }
+
+
+    /* Features */
+    #features .chatbot-info {
+        margin: 50px 10px;
+    }
+    #features .chatbot-info h3 {
+        font-size: 1.8em;
+    }
+    #features .chatbot-info .section p {
+        font-size: 1.2em;
+    }
+    #features .card-columns {
+        padding: 0 45px;
+    }
+    #features .card-columns  img {
+        max-height: 40%;
+        max-width: 40%;
+    }
+    #features .card-body {
+        padding: 1.5em 1em;
+        box-shadow: 0 4px 8px -5px black;
+        padding-bottom: 60px;
+    }
+    #features .card-title {
+        font-size: 1.4em;
+        font-weight: 500;
+    }
+    #features .section-head {
+        padding: 50px 10px 30px;
+    }
+    #features .section-head h3 {
+        font-size: 1.8em;
+    }
+    #features .bonus-features .feature {
+        box-shadow: 0 4px 8px -5px black;
+        padding-top: 20px;
+    }
+    #features .col-md {
+        display: none;
+    }
+
+    /* contact us */
+    #contact-us .row .col-md-6 {
+        padding: 0;
+        margin: 0 20px 0 20px;
+        text-align: center;
+    }
+    #contact-us .row .col-md-6 p {
+        font-size: 1.2em;
+        margin: 20px 0 40px 0;
+    }
+    #contact-us .row .contactus-buttons {
+        margin: auto;
+    }
+    #contact-us .row .btn {
+        margin-left: 0;
+    }
+    #callsales {
+        margin-right: 10px;
     }
 
     /* Footer */
-    .footer .shortcut{
+    #footer .footer .shortcut{
         display:none;
     }
     #logo-footer {
+        text-align: center;
+    }
+    #footer .col-md-3 img {
         height: 36px;
     }
     .social {
         margin: 1em 0;
         text-align: center;
     }
-    .copyright {
+    #footer .footer-copyright p {
         text-align: center;
     }
 }
