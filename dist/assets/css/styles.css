@@ -98,7 +98,10 @@ body a:hover {
     padding-left: 0;
 }
 #home .col-md {
-    padding: 0 20px 0 10px;
+    padding: 0 40px 0 10px;
+}
+#home .col-md-7 {
+    padding-right: 0;
 }
 #home .typer-holder {
     text-align: left;
@@ -134,13 +137,10 @@ body a:hover {
 #value-prop {
     padding: 10px 0;
 }
-#value-prop .headertext {
-    padding-left: 30px;
-}
 #value-prop .section h3 {
     text-align: center;
     font-size: 36px;
-    padding: 20px 10px;
+    padding: 20px 0;
     font-weight: 400;
 }
 #value-prop .section p {
@@ -160,9 +160,14 @@ body a:hover {
     border: none;
     text-align: center;
     background-color: transparent;
+    position: relative;
+    transition: 0.5s;
 }
 #value-prop .card-columns .card:hover {
-    box-shadow: 0 4px 8px -5px black;
+    transform: translateY(-10px);
+    z-index: 1;
+    cursor: default;
+    box-shadow: 0px 20px 40px rgba(78, 79, 99, 0.2);
 }
 #value-prop .card-columns img {
     max-height: 40%;
@@ -262,6 +267,14 @@ body a:hover {
     border: none;
     text-align: center;
     background-color: transparent;
+    position: relative;
+    transition: 0.5s;
+}
+#features .card-columns .card:hover {
+    transform: translateY(-10px);
+    z-index: 1;
+    cursor: default;
+    box-shadow: 0px 20px 40px rgba(78, 79, 99, 0.2);
 }
 #features .card-columns img {
     max-height: 40%;
@@ -274,9 +287,6 @@ body a:hover {
 }
 #features .card-text {
     font-size: 18px;
-}
-#features .card-columns .card:hover {
-    box-shadow: 0 4px 8px -5px black;
 }
 #features .section-head {
     text-align: center;
@@ -296,9 +306,14 @@ body a:hover {
 }
 #features .feature {
     padding: 10px 15px;
+    position: relative;
+    transition: 0.5s;
 }
 #features .feature:hover {
-    box-shadow: 0 4px 8px -5px black;
+    transform: translateY(-10px);
+    z-index: 1;
+    cursor: default;
+    box-shadow: 0px 20px 40px rgba(78, 79, 99, 0.2);
 }
 #features-img {
     height: 300px;
@@ -346,6 +361,9 @@ body a:hover {
 #logo-footer {
     height: 48px;
 }
+#footer .col-md-3 img {
+    height: 50px;
+}
 .fa {
     color: #FBFBFB;
     padding: 10px 20px;
@@ -365,7 +383,7 @@ body a:hover {
     padding: 5px 0;
 }
 .footer .footer-copyright {
-    margin-top: 40px;
+    margin-top: 20px;
     padding: 0 20px;
 }
 /* Footer Section end */
@@ -403,9 +421,88 @@ body a:hover {
     /* home*/
     #home {
         background-color: #FBFBFB;
+        padding: 1.5em;
     }
     #home img {
         display: none;
+    }
+    #home .text h1 {
+        padding-top: 1.8em;
+        font-size: 2.4em;
+        margin-bottom: 0.8em;
+        text-align: center;
+    }
+    #home .text p {
+        font-size: 1.2em;
+        padding-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #home .col-md-8 {
+        width: 450px;
+    }
+    #home .signup .ml-auto {
+        margin: 0;
+    }
+    #home .col-md {
+        padding: 0 20px;
+    }
+
+    /* value prop */
+    #value-prop .section .headertext {
+        padding: 0 40px;
+    }
+    #value-prop .section h3 {
+        font-size: 1.9em;
+    }
+    #value-prop .section p {
+        font-size: 1.1em;
+        margin-bottom: 60px;
+    }
+    #value-prop .card-columns {
+        width: 450px;
+        margin: auto;
+        margin-top: 80px;
+    }
+
+    /* features */
+    #features .chatbot-info h3 {
+        font-size: 1.9em;
+    }
+    #features .chatbot-info p {
+        font-size: 1.1em;
+    }
+    #features .card-columns {
+        width: 450px;
+        margin: auto;
+        margin-top: 80px;
+    }
+    #features .section-head h3 {
+        font-size: 1.9em;
+    }
+    #features-img {
+        margin-top: 50px;
+    }
+
+    /* contact us */
+    #contact-us .row .col-md-6 {
+        text-align: center;
+        margin: 0 40px;
+    }
+    #contact-us .row .contactus-buttons {
+        margin: auto ;
+    }
+
+    /* footer */
+    #footer .col-md-3 {
+        font-size: 0.97em;
+    }
+    #footer .social {
+        margin: 10px 0;
+    }
+    #footer .social .fa {
+        padding: 10px 10px 10px 0;
     }
 }
 
@@ -475,6 +572,9 @@ body a:hover {
     #value-prop {
         padding-top: 3em;
     }
+    #value-prop .headertext {
+        padding: 0 10px;
+    }
     #value-prop .section h3 {
         text-align: center;
         font-weight: 700;
@@ -488,6 +588,7 @@ body a:hover {
     }
     #value-prop .card-columns {
         padding: 0 45px;
+        margin-bottom: 80px;
     }
     #value-prop .card-columns  img {
         max-height: 40%;
@@ -495,8 +596,7 @@ body a:hover {
     }
     #value-prop .card-body {
         padding: 1.5em 1em;
-        box-shadow: 0 4px 8px -5px black;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     #value-prop .card-title {
         font-size: 1.4em;
@@ -543,7 +643,9 @@ body a:hover {
         margin: 50px 10px;
     }
     #features .chatbot-info h3 {
-        font-size: 1.8em;
+        font-weight: 700;
+        font-size: 1.7em;
+        padding: 15px 0 30px;
     }
     #features .chatbot-info .section p {
         font-size: 1.2em;
@@ -557,21 +659,20 @@ body a:hover {
     }
     #features .card-body {
         padding: 1.5em 1em;
-        box-shadow: 0 4px 8px -5px black;
-        padding-bottom: 60px;
+        padding-bottom: 40px;
     }
     #features .card-title {
         font-size: 1.4em;
         font-weight: 500;
     }
     #features .section-head {
-        padding: 50px 10px 30px;
+        padding: 50px 10px 10px;
     }
     #features .section-head h3 {
-        font-size: 1.8em;
+        font-weight: 700;
+        font-size: 1.7em;
     }
     #features .bonus-features .feature {
-        box-shadow: 0 4px 8px -5px black;
         padding-top: 20px;
     }
     #features .col-md {
@@ -597,22 +698,25 @@ body a:hover {
     #callsales {
         margin-right: 10px;
     }
-
-    /* Footer */
-    #footer .footer .shortcut{
-        display:none;
+}
+@media (min-width: 34em) {
+    .card-columns {
+        -webkit-column-count: 1;
+        -moz-column-count: 1;
+        column-count: 1;
     }
-    #logo-footer {
-        text-align: center;
+}
+@media (min-width: 48em) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
     }
-    #footer .col-md-3 img {
-        height: 36px;
-    }
-    .social {
-        margin: 1em 0;
-        text-align: center;
-    }
-    #footer .footer-copyright p {
-        text-align: center;
+}
+@media (min-width: 62em) {
+    .card-columns {
+        -webkit-column-count: 3;
+        -moz-column-count: 3;
+        column-count: 3;
     }
 }
