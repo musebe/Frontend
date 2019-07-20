@@ -152,9 +152,11 @@ body a:hover {
     height: 250px;
 }  
 #value-prop .card-columns {
-    margin: 70px 0 50px 0;
     column-gap: 3em;
     padding: 0 2em;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
 }
 #value-prop .card-columns .card {
     border: none;
@@ -189,7 +191,7 @@ body a:hover {
     width: 100%;
     background-image: url("/dist/assets/img/pictures/concert-01.jpg");
     background-size: 100% 100%; 
-    height: 650px;
+    height: 680px;
 }
 #usecase .container-fluid {
     padding: 0;
@@ -200,7 +202,7 @@ body a:hover {
     padding: 30px 30px 0 30px;
 }
 .usecasetitle {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     margin: 0;
 }
@@ -250,7 +252,7 @@ body a:hover {
     text-align: center;
 }
 #features .chatbot-info h3 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
     padding: 0 0 10px 0;
 }
@@ -269,6 +271,7 @@ body a:hover {
     background-color: transparent;
     position: relative;
     transition: 0.5s;
+    flex: 0 0 300px;
 }
 #features .card-columns .card:hover {
     transform: translateY(-10px);
@@ -293,7 +296,7 @@ body a:hover {
     padding: 20px 20px 50px 20px;
 }
 #features .section-head h3 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 500;
     padding: 0;
 }
@@ -325,13 +328,13 @@ body a:hover {
     margin-bottom: 100px;
 }
 #contact-us .row .col-md-6 {
-    margin: 0px 40px 0 20px;;
+    margin: 0px 40px 0 20px;
 }
 #contact-us .row .contactus-buttons {
     margin-right: 100px;
 }
 #contact-us .row h3 {
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 200;
     color: #0A6DAD;
 }
@@ -386,15 +389,94 @@ body a:hover {
     margin-top: 20px;
     padding: 0 20px;
 }
+#footer .social .fa {
+    padding: 20px 10px 10px 0;
+}
 /* Footer Section end */
 
 /* Responsive design */
-@media (max-width: 992px) {
+@media (max-width: 991px) {
     body {
         margin: 0 0;
         overflow-x: hidden;
     }
+
+    /* navbar */
+    #navbar {
+        background-color: #f1f1f1;
+    }
+    .logo {
+        display: none;
+    }
+    .logo-2 {
+        display: block;
+        height: 1.8em;
+    }
+    #mynavbar .nav-link {
+        padding: 1em 0;
+        color: #064167;
+    }
+
+    /* home*/
+    #home {
+        background-color: #FBFBFB;
+        padding: 3em;
+    }
+    #home img {
+        display: none;
+    }
+    #home .text h1 {
+        padding-top: 1em;
+        font-size: 2.8em;
+        margin-bottom: 0.8em;
+        text-align: center;
+    }
+    #home .text p {
+        font-size: 1.6em;
+        padding-top: 10px;
+        margin-bottom: 0;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    #home .col-md-8 {
+        width: 450px;
+    }
+    #home .signup .ml-auto {
+        margin: 0;
+    }
+    #home .col-md {
+        padding: 0 20px;
+    }
+
+    /* value prop */
+    #value-prop .col-md p {
+        font-size: 1.1em;
+    }
+    #value-prop .card-columns {
+        margin-top: 50px;
+    }
+    #value-prop .card-body h5 {
+        font-size: 1.2em;
+    }
+    #value-prop .card-body p {
+        font-size: 1em;
+    }
+
+    /* contact us */
+    #contact-us .row .col-md-6 {
+        margin: 0px 0 0 20px;
+    }
 }
+
+@media (max-width: 890px) {
+    #contact-us .row .col-md-6 {
+        margin: auto;
+    }
+    #contact-us .row .contactus-buttons {
+        margin: auto;
+    }
+}
+
 
 @media (max-width: 767px) {
     body {
@@ -463,7 +545,7 @@ body a:hover {
     #value-prop .card-columns {
         width: 450px;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     /* features */
@@ -503,6 +585,23 @@ body a:hover {
     }
     #footer .social .fa {
         padding: 10px 10px 10px 0;
+    }
+}
+
+@media (max-width: 676px) {
+    #home .signup .col-md-8 {
+        margin: auto;
+    }
+    #ContactFormEmail {
+        text-align: center;
+        font-size: 1em;
+        height: 52px;
+    }
+    #home .row .btn {
+        margin: auto;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 450px;
     }
 }
 
@@ -565,7 +664,7 @@ body a:hover {
         margin: auto;
         margin-top: 10px;
         margin-bottom: 20px;
-        width: 435px;
+        width: 100%;
     }
 
     /* value prop */
@@ -587,8 +686,9 @@ body a:hover {
         margin-bottom: 60px;
     }
     #value-prop .card-columns {
-        padding: 0 45px;
+        padding: 0;
         margin-bottom: 80px;
+        width: 300px;
     }
     #value-prop .card-columns  img {
         max-height: 40%;
@@ -597,6 +697,7 @@ body a:hover {
     #value-prop .card-body {
         padding: 1.5em 1em;
         padding-bottom: 40px;
+        width: 300px;
     }
     #value-prop .card-title {
         font-size: 1.4em;
@@ -651,7 +752,8 @@ body a:hover {
         font-size: 1.2em;
     }
     #features .card-columns {
-        padding: 0 45px;
+        padding: 0;
+        width: 300px;
     }
     #features .card-columns  img {
         max-height: 40%;
