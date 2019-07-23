@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <title>Saada</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../assets/vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+    <!-- Saada custom styles -->
+    <link href="../assets/css/styles.css" rel="stylesheet"/>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Lato|Ubuntu&display=swap" rel="stylesheet"/>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  </head>
+  
+  <body>
+    <!-- Signup form -->
+    <div id="signup" class="container">
+      <div class="row">
+        <div class="typer-holder col-md-8">
+          <h1 col-md>
+            Automate your ticket sales & process payments over<span> WhatsApp</span>
+          </h1>
+        </div>
+        <form id="signupForm" action="" class="col-md-8">
+          <div class="row" id="saadaLogo">
+              <a class="col-md-3" href="/dist/index.html">
+                <img src="/dist/assets/img/saada-logo.png" class="my-auto logo" alt="logo"/>
+              </a>
+          </div>
+          <div class="row">
+            <h3 id="formTitle">Sign Up Form</h3>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="ClientName">Full Name</label>
+              <input type="text" class="form-control" id="ClientName" placeholder="Enter name">
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="PhoneNumber">Phone number</label>
+              <input type="number" class="form-control" id="PhoneNumber" placeholder="Enter phone number">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="EmailInput">Email address</label>
+              <input type="email" class="form-control" id="EmailInput" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted">We'll never share your details without your strict consent.</small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md nav nav-tabs" id="setupTabs" role="tablist">
+              <a class="nav-item nav-link active col-md" id="setupEvent" data-toggle="tab" href="#setupevents" role="tab" aria-controls="setupevents" aria-selected="true">Events</a>
+              <a class="nav-item nav-link col-md" id="setupEntertainment" data-toggle="tab" href="#setupentertainment" role="tab" aria-controls="setupentertainment" aria-selected="false">Entertainment</a>
+              <a class="nav-item nav-link col-md" id="setupTravel" data-toggle="tab" href="#setuptravel" role="tab" aria-controls="setuptravel" aria-selected="false">Travel</a>
+            </div>
+          </div>
+          <div class="row tab-content">
+            <div class="tab-pane fade show active col-md" id="setupevents" role="tabpanel" aria-labelledby="setupEvent">
+              <form action="">
+                <p class="col-md" style="font-weight: bold; font-size: 18px;">Post your event on WhatsApp and share today!</p>
+                <div class="col-md form-group">
+                  <label for="eventName">Event name</label>
+                  <input type="text" class="form-control" id="eventName" placeholder="Enter event title">
+                </div>
+                <div class="col-md form-group">
+                  <label for="eventLocation">Location</label>
+                  <input type="text" class="form-control" id="eventLocation" placeholder="Enter location">
+                </div>
+                <div class="row">
+                  <div class="col-md-4 form-group">
+                    <label for="eventDate">Date</label>
+                    <input type="date" class="form-control" id="eventDate">
+                  </div>
+                  <div class="col-md-2 form-group">
+                      <label for="eventTime">Start Time</label>
+                      <input type="time" class="form-control" id="eventTime">
+                  </div>
+                  <div class="col-md-2 form-group">
+                      <label for="eventTime">End Time</label>
+                      <input type="time" class="form-control" id="eventTime">
+                  </div>
+                </div>
+                <div class="row">
+                  <button class="btn btn-brand-accent text-uppercase col-md-3">Submit</button>
+                </div>
+                <div class="row">
+                  <a id="formReturn" class="nav-link text-uppercase" href="/dist/index.html">
+                    &#8249;&nbsp;Return to Home
+                  </a>
+                </div>
+                <div class="footer-copyright text-left ml-auto col-md-3">
+                    <p>&copy; Saada. 2019</p>
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade col-md" id="setupentertainment" role="tabpanel" aria-labelledby="setupEntertainment">
+              <div>
+                <p class="col-md">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</p>
+                <p class="col-md" style="font-weight: bold; font-size: 18px;">Coming soon. Signup to our waiting list.</p>
+                <button class="btn btn-brand-accent text-uppercase col-md-3">I'm interested!</button>
+                <div class="row">
+                  <a id="formReturn" class="nav-link text-uppercase" href="/dist/index.html">
+                    &#8249;&nbsp;Return to Home
+                  </a>
+                </div>
+                <div class="footer-copyright text-left ml-auto col-md-3">
+                    <p>&copy; Saada. 2019</p>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade col-md" id="setuptravel" role="tabpanel" aria-labelledby="setupTravel">
+              <div>
+                <p class="col-md">Road, rail, or air enable travellers book their trip from your selection of destinations.</p>
+                <p class="col-md" style="font-weight: bold; font-size: 18px;">Coming soon. Signup to our waiting list.</p>
+                <button class="btn btn-brand-accent text-uppercase col-md-3">I'm interested!</button>
+                <div class="row">
+                  <a id="formReturn" class="nav-link text-uppercase" href="/dist/index.html">
+                    &#8249;&nbsp;Return to Home
+                  </a>
+                </div>
+                <div class="footer-copyright text-left ml-auto col-md-3">
+                    <p>&copy; Saada. 2019</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>

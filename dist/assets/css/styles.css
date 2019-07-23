@@ -1,6 +1,6 @@
 /* Body */
 body {
-    font-size: 17px;
+    font-size: 15px;
     overflow-x: hidden;
     font-family: 'Open Sans', sans-serif;
     color: #064167;
@@ -18,6 +18,7 @@ body a {
 body a:hover {
     text-decoration: none;
 }
+
 .row {
     margin-right: 0;
     margin-left: 0;
@@ -46,6 +47,7 @@ body a:hover {
     height: 36px;
 }
 .logo-2 {
+    height: 36px;
     display: none;
 }
 #mynavbar .nav-item {
@@ -96,6 +98,7 @@ body a:hover {
 }
 #home .home-img {
     padding-left: 0;
+    height: 100%;
 }
 #home .col-md {
     padding: 0 40px 0 10px;
@@ -105,7 +108,7 @@ body a:hover {
 }
 #home .typer-holder {
     text-align: left;
-    margin-top: 60px;
+    /* margin-top: 20px; */
 }
 #home .text h1 {
     padding-bottom: 20px;
@@ -127,29 +130,38 @@ body a:hover {
 #home .get-started {
     margin-left: 10px;
 }
-#ContactFormEmail {
-    font-size: 19px;
-    border-color: #00D1A5;
+#home a:hover {
+    color: #FBFBFB;
+}
+#home ::placeholder {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
 }
 /* Home Section end */
 
 /* Value Proposition Section */
 #value-prop {
-    padding: 10px 0;
+    padding: 20px 0 10px 0;
+}
+#value-prop .section {
+    padding-bottom: 50px;
+}
+#value-prop .section .col-md {
+    margin-left: 50px;
 }
 #value-prop .section h3 {
-    text-align: center;
-    font-size: 36px;
+    /* text-align: center; */
+    font-size: 30px;
     padding: 20px 0;
     font-weight: 400;
 }
 #value-prop .section p {
-    text-align: center;
+    /* text-align: center; */
     font-size: 20px;
     font-weight: 400;
 }
 #messaging-img {
-    height: 250px;
+    height: 400px;
 }  
 #value-prop .card-columns {
     column-gap: 3em;
@@ -178,25 +190,22 @@ body a:hover {
 }
 #value-prop .card-title {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 20px;
 }
 #value-prop .card-text {
-    font-size: 18px;
+    font-size: 15px;
 }
 /* Value Proposition Section end */
 
 /* Use Case Section */
-#usecase {
+
+.usecaseBg {
     color: #FBFBFB;
     width: 100%;
-    background-image: url("/dist/assets/img/pictures/concert-01.jpg");
-    background-size: 100% 100%; 
-    height: 680px;
-}
-#usecase .container-fluid {
-    padding: 0;
-    background-color: rgba(0, 209, 164, 0.187);
-    height: 100%;
+    background-image: url('/dist/assets/img/pictures/concert-01.jpg');
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 40vh;
 }
 #usecase .usecasetab {
     padding: 30px 30px 0 30px;
@@ -206,13 +215,11 @@ body a:hover {
     font-weight: 700;
     margin: 0;
 }
-#usecaseTab {
-    border: none;
-}
 #usecase .nav-item {
     font-size: 20px;
     color: #FBFBFB;
     font-weight: 600;
+    border: none;
 }
 #usecase .nav-item .active {
     background-color: transparent;
@@ -236,32 +243,32 @@ body a:hover {
     font-size: 20px;
     font-weight: 700;
     color: #FBFBFB;
-    /* background-color: rgba(251, 251, 251, 0.77);
-    border-radius: 25%;
-    box-shadow: 0 4px 8px -5px black; */
-    /* padding: 30px; */
+}
+#usecase .tab-pane a:hover {
+    color: #FBFBFB;
 }
 /* Use Case Section end */
+
 
 /* Features Section */
 #features {
     padding: 0 0 70px 0;
 }
 #features .chatbot-info {
-    margin: 70px 100px 50px 100px;
+    margin: 100px 100px 50px 100px;
     text-align: center;
 }
 #features .chatbot-info h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     padding: 0 0 10px 0;
 }
 #features .chatbot-info p {
-    font-size: 24px;
-    padding-bottom: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 #features .card-columns {
-    margin: 30px 0 30px 0;
+    margin: 50px 0 30px 0;
     column-gap: 3em;
     padding: 0 2em;
 }
@@ -285,27 +292,27 @@ body a:hover {
     padding-bottom: 20px;
 }
 #features .card-title {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
 }
 #features .card-text {
-    font-size: 18px;
+    font-size: 15px;
 }
 #features .section-head {
     text-align: center;
     padding: 20px 20px 50px 20px;
 }
 #features .section-head h3 {
-    font-size: 36px;
+    font-size: 30px;
     font-weight: 500;
     padding: 0;
 }
 #features .bonus-features h5 {
     font-weight: 500;
-    font-size: 24px;
+    font-size: 18px;
 }
 #features .bonus-features p {
-    font-size: 18px;
+    font-size: 15px;
 }
 #features .feature {
     padding: 10px 15px;
@@ -334,15 +341,18 @@ body a:hover {
     margin-right: 100px;
 }
 #contact-us .row h3 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: 200;
     color: #0A6DAD;
 }
 #contact-us .row p {
-    font-size: 24px;
+    font-size: 20px;
 }
 #contact-us .btn {
     margin-left: 20px;
+}
+#contact-us a:hover {
+    color: #FBFBFB;
 }
 /* Contact Us */
 
@@ -393,6 +403,81 @@ body a:hover {
     padding: 20px 10px 10px 0;
 }
 /* Footer Section end */
+
+/* Signup Form */
+#signup .typer-holder {
+    margin: auto;
+    margin-top: 60px;
+}
+#signup .typer-holder h1 {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+#signup .typer-holder span {
+    color: #00D1A5;
+}
+#signupForm {
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    background-color: #f1f1f1;
+    box-shadow: 0px 20px 40px rgba(78, 79, 99, 0.2);
+    padding: 30px 20px;
+}
+#formTitle {
+    margin: auto;
+    margin-bottom: 25px;
+    font-weight: 700;
+    font-size: 25px;
+}
+#signupForm .nav-tabs {
+    padding: 0 14px;
+}
+#signupForm .nav-item {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+}
+#signupForm .nav-tabs .active {
+    background-color: transparent;
+    color: #00D1A5;
+    border: none;
+}
+#signupForm .nav-link:hover {
+    border: none;
+    color: #00D1A5;
+}
+#saadaLogo {
+    margin-bottom: 20px;
+}
+#saadaLogo a {
+    margin: auto;
+}
+#saadaLogo .logo {
+    height: 40px;
+}
+#signupForm .tab-pane {
+    margin-top: 25px;
+}
+#signupForm button {
+    margin-top: 20px;
+    margin-left: 15px;
+}
+#formReturn {
+    margin-top: 30px;
+    font-weight: 600;
+}
+#signup ::placeholder {
+    font-size: 15px;
+}
+#eventDate {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    color: #495057;
+}
+/* Signup Form End */
+
 
 /* Responsive design */
 @media (max-width: 991px) {
@@ -642,7 +727,7 @@ body a:hover {
         padding-top: 10px;
         margin-bottom: 0;
         text-align: center;
-        margin-bottom: 30px;
+        margin-bottom: 20px;
     }
     #home img {
         display: none;
@@ -651,14 +736,9 @@ body a:hover {
         color: #064167;        
     }
     #home .signup .col-md-8 {
-        margin: 10px;
+        margin: 0;
         padding: 0;
         text-align: center;
-    }
-    #ContactFormEmail {
-        text-align: center;
-        font-size: 1em;
-        height: 52px;
     }
     #home .signup .btn {
         margin: auto;
@@ -671,8 +751,9 @@ body a:hover {
     #value-prop {
         padding-top: 3em;
     }
-    #value-prop .headertext {
+    #value-prop .section .headertext {
         padding: 0 10px;
+        margin: 0;
     }
     #value-prop .section h3 {
         text-align: center;
@@ -685,14 +766,25 @@ body a:hover {
         font-size: 1.07em;
         margin-bottom: 60px;
     }
+    #value-prop .section {
+        padding-bottom: 0;
+    }
+    #messaging-img {
+        display: none !important;
+    }
     #value-prop .card-columns {
         padding: 0;
+        margin-top: 0;
         margin-bottom: 80px;
         width: 300px;
     }
     #value-prop .card-columns  img {
         max-height: 40%;
         max-width: 40%;
+    }
+    #value-prop .card {
+        padding: 0;
+        margin: auto;
     }
     #value-prop .card-body {
         padding: 1.5em 1em;
@@ -718,18 +810,17 @@ body a:hover {
         font-size: 1.9em;
     }
     #usecase .nav-link {
-        padding: 10px 5px;
-        font-size: 1em;
+        padding: 10px 4.5px;
+        font-size: 0.9em;
     }
     #usecaseTabContent {
-        margin-top: 120px;
+        margin-top: 20px;
     }
     #usecase .tab-content {
         padding: 1.5em 0 1em 0;
     }
     #usecase .tab-pane {
         padding: 0;
-        margin-top: 0.5em;
         text-align: center;
     }
     #usecase .tab-pane .card-text {
@@ -750,6 +841,7 @@ body a:hover {
     }
     #features .chatbot-info .section p {
         font-size: 1.2em;
+        padding-bottom: 0;
     }
     #features .card-columns {
         padding: 0;
@@ -796,9 +888,22 @@ body a:hover {
     }
     #contact-us .row .btn {
         margin-left: 0;
+        width: 100%;
     }
     #callsales {
         margin-right: 10px;
+    }
+
+    /* sign up */
+    #signup .typer-holder h1 {
+        font-size: 1.7em;
+    }
+    #formTitle {
+        font-size: 1.4em;
+    }
+    #signup .logo {
+        display: block;
+        margin: auto;
     }
 }
 @media (min-width: 34em) {

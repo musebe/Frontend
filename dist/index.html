@@ -63,28 +63,26 @@
     <section id="home">
       <div class="jumbotron jumbotron-fliud">
         <div class="container-fluid">
-          <div class="row h-650">
-            <div class="col-md-7 home-img">
+          <div class="row">
+            <div class="col-md-6 home-img">
               <img class="img-fluid" src="assets/img/saada-jumbotron.png">
             </div>
-            <div class="col-md my-auto">
+            <div class="col-md-5 my-auto">
               <div class="typer-holder text mx-auto d-block">
                 <!-- Jumbotron text -->
                 <h1>
                   Automate your ticket sales & process payments over<span> WhatsApp</span>
                 </h1>
-                <p>Automate how your customers pay for your goods or services by using the most popular messaging platform.</p>
+                <p>Automate how your customers pay for your services by using the most popular messaging platform.</p>
                 <!-- Get started button -->
                 <div class="row signup">
-                  <form class="col-md-8 my-auto">
-                    <input type="email" id="ContactFormEmail" class="form-control" placeholder="Your e-mail">
-                  </form>
-                  <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit">
-                    Try for free
+                  <button class="btn btn-brand-accent mr-auto text-uppercase" type="submit">
+                    <a href="/dist/pages/signup.html">Sign Up Today!</a>
                   </button>
                 </div>
               </div>
             </div>
+            <div class="col-md-1"></div>
           </div>
         </div>
       </div>
@@ -97,33 +95,40 @@
           <div class="col-md my-auto headertext">
             <h3>Saada is bringing conversational sales to the digital ticketing industry</h3>
             <p class="short-description">
-              Our platform will automate your ticket sales and mobile money payment processing on Whatsapp. We provide you with a dashboard to keep track of your sales and reach out to customers with notifications and marketing material.
+              Our platform can sell to multiple customers simultaneously and increase the speed of serving each. It is accessible 24/7 on Whatsapp and customers can make payments seamlessly inside the platform.
             </p>
           </div>
           <div class="col-md my-auto">
-            <img id="messaging-img" class="img-fluid mx-auto d-block" src="/dist/assets/img/saada-contact-us.png" alt="messaging image">
+            <img id="messaging-img" class="img-fluid mx-auto d-block" src="/dist/assets/img/Demo.gif" alt="Saada Demo">
           </div>
         </header>
-        <div class="card-columns">
-          <div class="card">
+        <div class="card-columns row">
+          <div class="card col-md-3">
             <div class="card-body">
-              <img class="card-img" src="assets/img/pay-per-click.png" alt="reduce overhead cost"/>
+              <img class="card-img" src="/dist/assets/img/icons/reduce-costs.svg" alt="reduce overhead cost"/>
               <h5 class="card-title">Reduced overhead costs</h5>
-              <p class="card-text"> Eliminate physical tickets and reduce staff time for sales and routine customer care.</p>
+              <p class="card-text"> Eliminate costs of physical tickets, reduces staff time for sales, and marketing costs over time.</p>
             </div>
           </div>
-          <div class="card">
+          <div class="card col-md-3">
             <div class="card-body">
-              <img class="card-img" src="assets/img/tax.png" alt="customer-satisfaction"/>
+              <img class="card-img" src="/dist/assets/img/icons/direct-marketing1.svg" alt="reduce overhead cost"/>
+              <h5 class="card-title">Enhance direct marketing</h5>
+              <p class="card-text"> Easily store customer details and segment customers for personalized marketing to improve acquisition, conversion, and retention.</p>
+            </div>
+          </div>
+          <div class="card col-md-3">
+            <div class="card-body">
+              <img class="card-img" src="/dist/assets/img/icons/manage-sales.svg" alt="customer-satisfaction"/>
               <h5 class="card-title">Easily managed sales</h5>
-              <p class="card-text">Manage and track your sales with real time reporting and analytics from any device.</p>
+              <p class="card-text">Manage and track your sales with downloadable and customizable real-time reports and analytics, from any device.</p>
               </div>
           </div>
-          <div class="card">
+          <div class="card col-md-3">
             <div class="card-body">
-              <img class="card-img" src="assets/img/conversation.png" alt="customer-satisfaction"/>
-              <h5 class="card-title">Payments over chat</h5>
-              <p class="card-text">Accept and process payments directly to your account on messaging platforms.</p>
+              <img class="card-img" src="/dist/assets/img/icons/payments-chat.svg" alt="customer-satisfaction"/>
+              <h5 class="card-title">Process payments over messaging</h5>
+              <p class="card-text">Accept payments directly to your account on messaging platforms to reduce waiting time for payments and prevent risks related to the handling of cash.</p>
             </div>
           </div>
         </div>
@@ -131,11 +136,11 @@
     </section>
 
     <!-- Use Case Section -->
-    <section id="usecase">
+    <section id="usecase" class="usecaseBg">
       <div class="container-fluid">
         <div class="row usecasetab">
           <h1 class="col-md usecasetitle">Use Cases</h1>
-          <ul class="nav nav-tabs float-right" id="usecaseTab" role="tablist">
+          <ul class="nav nav-tabs float-right" role="tablist">
             <li class="nav-item">
               <a class="nav-link active" id="events-tab" data-toggle="tab" href="#events" role="tab" aria-controls="events" aria-selected="true">Events</a>
             </li>
@@ -151,16 +156,25 @@
           <div class="tab-pane fade show active row" id="events" role="tabpanel" aria-labelledby="events-tab">
             <div class="col-md-6 ml-auto">
               <p class="card-text">Events of all formats and sizes can sell tickets and collect feedback and insights to better plan future events.</p>
+              <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit"> 
+                <a href="/dist/pages/signup.html"> Post your event today</a>
+              </button>
             </div>
           </div>
           <div class="tab-pane fade row" id="entertainment" role="tabpanel" aria-labelledby="entertainment-tab">
             <div class="col-md-6 ml-auto">
               <p class="card-text">Cinemas, night clubs, amusement parks can easily communicate and sell packages.</p>
+              <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit">
+                  <a href="/dist/pages/signup.html">List your venue today</a>
+              </button>
             </div>
           </div>
           <div class="tab-pane fade row" id="travel" role="tabpanel" aria-labelledby="travel-tab">
             <div class="col-md-6 ml-auto">
               <p class="card-text">Road, rail, or air enable travellers book their trip from your selection of destinations.</p>
+              <button class="btn btn-brand-accent ml-auto text-uppercase" type="submit">
+                  <a href="/dist/pages/signup.html">List your destinations today</a>
+              </button>
             </div>
           </div>
         </div>
@@ -170,39 +184,39 @@
     <!-- Features -->
     <section id="features">
       <div class="container-fluid">
-        <div class="chatbot-info">
+        <div class="chatbot-info col-md-8 mx-auto">
           <h3>Automate ticket sales over conversational interfaces</h3>
           <header class="section">
             <p>
-              Our chatbot enables your business to automate ticket sales. It guides customers through the steps of making a purchasing and processes their payment.
+              Our chatbot enables your business to automate ticket sales. It guides customers through the steps of making a reservation and processes their payment.
             </p>
           </header>
         </div>
         <div class="card-columns">
           <div class="card">
             <div class="card-body">
-              <img class="card-img" src="assets/img/pay-per-click.png" alt="customer-satisfaction"/>
+              <img class="card-img" src="/dist/assets/img/icons/mobile-money.svg" alt="customer-satisfaction"/>
               <h5 class="card-title">Mobile money integration</h5>
               <p class="card-text"> Our Safaricom API integration allows customers to pay directly to your business’ Paybill account without leaving Whatsapp.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <img class="card-img" src="assets/img/tax.png" alt="customer-satisfaction"/>
+              <img class="card-img" src="/dist/assets/img/icons/sales-report.svg"/>
               <h5 class="card-title">Sales reports</h5>
               <p class="card-text">Your business dashboard provides real-time updates on sales and can generate sales reports on any device.</p>
             </div>
           </div>
           <div class="card">
             <div class="card-body">
-              <img class="card-img" src="assets/img/conversation.png" alt="customer-satisfaction"/>
+              <img class="card-img" src="/dist/assets/img/icons/validate.svg" alt="customer-satisfaction"/>
               <h5 class="card-title">Ticket validation</h5>
               <p class="card-text">Verify tickets by scanning the QR code embedded on the tickets or using our ussd short code.</p>
             </div>
           </div>
         </div>
         <div class="section-head">
-          <h3>Improve your costomer engagement</h3>
+          <h3>Improve the way you engage costomers to ensure retention.</h3>
         </div>
         <div class="row bonus-features">
           <div class="col-md-6">
@@ -233,9 +247,8 @@
           <h3>Ready to signup?</h3>
           <p>We’d love to talk to you about the value of conversational sales to your business.</p>
         </div>
-        <div class="ml-auto contactus-buttons my-auto">
-          <button class="btn btn-brand-accent text-uppercase" id="callsales" type="submit">Talk to Sales</button>
-          <button class="btn btn-brand-accent text-uppercase" type="submit">Create account</button>
+        <div class="ml-auto contactus-buttons my-auto mx-auto">
+          <button class="btn btn-brand-accent text-uppercase" id="callsales" type="submit"> <a href="/dist/pages/signup.html">Sign Up Today!</a></button>
         </div>
       </div>
     </section>
@@ -288,7 +301,7 @@
           </div>
         </div>
         <div class="footer-copyright text-left py-3">
-          <p>&copy; Saada 2019</p>
+          <p>&copy; Saada. 2019</p>
         </div>
       </div>
     </footer>
