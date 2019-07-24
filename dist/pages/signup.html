@@ -100,188 +100,37 @@
               >
             </div>
           </div>
-          <div class="row">
-            <div class="col-md nav nav-tabs" id="setupTabs" role="tablist">
-              <a
-                class="nav-item nav-link active col-md"
-                id="setupEvent"
-                data-toggle="tab"
-                href="#setupevents"
-                role="tab"
-                aria-controls="setupevents"
-                aria-selected="true"
-                >Events</a
-              >
-              <a
-                class="nav-item nav-link col-md"
-                id="setupEntertainment"
-                data-toggle="tab"
-                href="#setupentertainment"
-                role="tab"
-                aria-controls="setupentertainment"
-                aria-selected="false"
-                >Entertainment</a
-              >
-              <a
-                class="nav-item nav-link col-md"
-                id="setupTravel"
-                data-toggle="tab"
-                href="#setuptravel"
-                role="tab"
-                aria-controls="setuptravel"
-                aria-selected="false"
-                >Travel</a
-              >
+          <div class="input-group mb-3 col-md">
+            <div class="input-group-prepend">
+              <label class="input-group-text" for="businessType">Ticketing Business Type</label>
             </div>
+            <select class="custom-select" id="businessType" name="businessType">
+              <option selected>Choose...</option>
+              <option value="events">Events: Concerts, festivals, conferences etc.</option>
+              <option value="entertainment">Entertainment: Cinemas, night clubs, amusement parks, etc.</option>
+              <option value="travel">Travel: Road, rail, air, etc.</option>
+            </select>
           </div>
-          <div class="row tab-content">
-            <div
-              class="tab-pane fade show active col-md"
-              id="setupevents"
-              role="tabpanel"
-              aria-labelledby="setupEvent"
+          <div class="row">
+            <button
+              type="submit"
+              id="submitform"
+              class="btn btn-brand-accent text-uppercase col-md-3"
             >
-
-                <p class="col-md" style="font-weight: bold; font-size: 18px;">
-                  Post your event on WhatsApp and share today!
-                </p>
-                <div class="col-md form-group">
-                  <label for="eventName">Event name</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="eventName"
-                    placeholder="Enter event title"
-                    name="eventname"
-                  />
-                </div>
-                <div class="col-md form-group">
-                  <label for="eventLocation">Location</label>
-                  <input
-                    type="text"
-                    class="form-control"
-                    id="eventLocation"
-                    placeholder="Enter location"
-                    name="location"
-                  />
-                </div>
-                <div class="row">
-                  <div class="col-md-4 form-group">
-                    <label for="eventDate">Date</label>
-                    <input
-                      type="date"
-                      class="form-control"
-                      id="eventDate"
-                      name="date"
-                    />
-                  </div>
-                  <div class="col-md-3 form-group">
-                    <label for="eventTime">Start Time</label>
-                    <input class="form-control" id="eventTime" name="start" />
-                  </div>
-                  <div class="col-md-3 form-group">
-                    <label for="eventTime">End Time</label>
-                    <input class="form-control" id="eventTime" name="end" />
-                  </div>
-                </div>
-                <div class="row">
-                  <button
-                    type="submit"
-                    id="submitform"
-                    class="btn btn-brand-accent text-uppercase col-md-3"
-                  >
-                    Submit
-                  </button>
-                </div>
-                <div class="row">
-                  <a
-                    id="formReturn"
-                    class="nav-link text-uppercase"
-                    href="../index.html"
-                  >
-                    &#8249;&nbsp;Return to Home
-                  </a>
-                </div>
-                <div class="footer-copyright text-left ml-auto col-md-3">
-                  <p>&copy; Saada. 2019</p>
-                </div>
-              </form>
-            </div>
-            <div
-              class="tab-pane fade col-md"
-              id="setupentertainment"
-              role="tabpanel"
-              aria-labelledby="setupEntertainment"
+              Submit
+            </button>
+          </div>
+          <div class="row">
+            <a
+              id="formReturn"
+              class="nav-link text-uppercase"
+              href="../index.html"
             >
-              <div>
-                <p class="col-md">
-                  Cinemas, night clubs, amusement parks can easily communicate
-                  and sell packages.
-                </p>
-                <p class="col-md" style="font-weight: bold; font-size: 18px;">
-                  Coming soon. Signup to our waiting list.
-                </p>
-                <a href="#interestModal" data-toggle="modal"
-                  ><button
-                    type="submit"
-                    class="btn btn-brand-accent text-uppercase col-md-3"
-                  >
-                    I'm interested!
-                  </button></a
-                >
-                <div class="row">
-                  <a
-                    id="formReturn"
-                    class="nav-link text-uppercase"
-                    href="../index.html"
-                  >
-                    &#8249;&nbsp;Return to Home
-                  </a>
-                </div>
-                <div class="footer-copyright text-left ml-auto col-md-3">
-                  <p>&copy; Saada. 2019</p>
-                </div>
-              </div>
-            </div>
-            <!-- content for travel tab -->
-            <div
-              class="tab-pane fade col-md"
-              id="setuptravel"
-              role="tabpanel"
-              aria-labelledby="setupTravel"
-            >
-              <div>
-                <p class="col-md">
-                  Road, rail, or air enable travellers book their trip from your
-                  selection of destinations.
-                </p>
-                <p class="col-md" style="font-weight: bold; font-size: 18px;">
-                  Coming soon. Signup to our waiting list.
-                </p>
-                <!-- submit button/modal -->
-                <button
-                  type="submit"
-                  class="btn btn-brand-accent text-uppercase col-md-3"
-                  data-toggle="modal"
-                  data-target="#interestModal"
-                >
-                  I'm interested!
-                </button>
-                <!-- return to landing page -->
-                <div class="row">
-                  <a
-                    id="formReturn"
-                    class="nav-link text-uppercase"
-                    href="../index.html"
-                  >
-                    &#8249;&nbsp;Return to Home
-                  </a>
-                </div>
-                <div class="footer-copyright text-left ml-auto col-md-3">
-                  <p>&copy; Saada. 2019</p>
-                </div>
-              </div>
-            </div>
+              &#8249;&nbsp;Return to Home
+            </a>
+          </div>
+          <div class="footer-copyright text-left ml-auto col-md-3">
+            <p>&copy; Saada. 2019</p>
           </div>
         </form>
       </div>

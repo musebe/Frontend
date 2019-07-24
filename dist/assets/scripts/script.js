@@ -35,9 +35,9 @@ var scrollSrc = './assets/img/saada-logo.png';
 $(window).scroll(function() {
   var value = $(this).scrollTop();
   if (value > 2) {
-    $('.logo').attr('src', scrollSrc);
+    $('.mylogo').attr('src', scrollSrc);
   } else {
-    $('.logo').attr('src', initialSrc);
+    $('.mylogo').attr('src', initialSrc);
   }
 });
 
