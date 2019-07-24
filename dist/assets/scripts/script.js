@@ -15,19 +15,6 @@ $(window).scroll(function() {
   }
 });
 
-$(window).addEventListener('resize', function() {
-  if (window.innerWidth > 767) {
-    // change navbar left text color on scroll
-    $(window).scroll(function() {
-      if ($(window).scrollTop() >= 2) {
-        $('.navbar-left').css('color', '#064167');
-      } else {
-        $('.navbar-left').css('color', '#FBFBFB');
-      }
-    });
-  }
-});
-
 // change navbar logo on scroll
 var initialSrc = './assets/img/saada-logo-white.png';
 var scrollSrc = './assets/img/saada-logo.png';

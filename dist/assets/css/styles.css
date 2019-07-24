@@ -122,6 +122,7 @@ body a:hover {
   font-size: 50px;
   margin-bottom: 20px;
   font-weight: 700;
+  margin-top: 10px;
 }
 #home .text p {
   padding-bottom: 25px;
@@ -143,6 +144,9 @@ body a:hover {
 #home ::placeholder {
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
+}
+#home .signup a {
+  margin: auto;
 }
 /* Home Section end */
 
@@ -462,6 +466,10 @@ body a:hover {
   background-color: #00d1a5;
   
 }
+#signup .input-group-text {
+  font-size: 15px;
+  color: #064167;
+}
 /* Signup Form End */
 
 /* Responsive design */
@@ -475,13 +483,13 @@ body a:hover {
   #navbar {
     background-color: #f1f1f1;
   }
-  .logo {
+  /* .logo {
     display: none;
   }
   .logo-2 {
     display: block;
     height: 1.8em;
-  }
+  } */
   #mynavbar .nav-link {
     padding: 1em 0;
     color: #064167;
@@ -490,33 +498,23 @@ body a:hover {
   /* home*/
   #home {
     background-color: #fbfbfb;
-    padding: 3em;
+    /* padding: 3em; */
   }
   #home img {
-    display: none;
+    /* display: none; */
   }
   #home .text h1 {
-    padding-top: 1em;
-    font-size: 2.8em;
-    margin-bottom: 0.8em;
+    padding-top: 0.5em;
+    font-size: 2em;
     text-align: center;
   }
   #home .text p {
-    font-size: 1.6em;
-    padding-top: 10px;
-    margin-bottom: 0;
+    font-size: 1.2em;
+    padding-top: 5px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 5px;
   }
-  #home .col-md-8 {
-    width: 450px;
-  }
-  #home .signup .ml-auto {
-    margin: 0;
-  }
-  #home .col-md {
-    padding: 0 20px;
-  }
+  
 
   /* value prop */
   #value-prop .col-md p {
@@ -658,6 +656,24 @@ body a:hover {
 }
 
 @media (max-width: 676px) {
+  #navbar {
+    background-color: #f1f1f1 !important;
+  }
+  .logo {
+    display: none;
+  }
+  .logo-2 {
+    display: block;
+    height: 1.8em;
+  }
+  #mynavbar .nav-link {
+    padding: 1em 0;
+    color: #064167;
+  }
+  #navbar .navbar-collapse {
+    margin-bottom: 15px;
+  }
+
   #home .signup .col-md-8 {
     margin: auto;
   }
@@ -682,7 +698,7 @@ body a:hover {
 
   /* navbar */
   #navbar {
-    background-color: #f1f1f1;
+    background-color: #f1f1f1 !important;
   }
   .logo {
     display: none;
@@ -694,6 +710,9 @@ body a:hover {
   #mynavbar .nav-link {
     padding: 1em 0;
     color: #064167;
+  }
+  #navbar .navbar-collapse {
+    margin-bottom: 15px;
   }
 
   /* home*/
@@ -733,7 +752,7 @@ body a:hover {
 
   /* value prop */
   #value-prop {
-    padding-top: 3em;
+    padding-top: 1em;
   }
   #value-prop .section .headertext {
     padding: 0 10px;
