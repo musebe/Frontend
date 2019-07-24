@@ -437,23 +437,6 @@ body a:hover {
   font-weight: 700;
   font-size: 25px;
 }
-#signupForm .nav-tabs {
-  padding: 0 14px;
-}
-#signupForm .nav-item {
-  font-size: 18px;
-  font-weight: 600;
-  border: none;
-}
-#signupForm .nav-tabs .active {
-  background-color: transparent;
-  color: #00d1a5;
-  border: none;
-}
-#signupForm .nav-link:hover {
-  border: none;
-  color: #00d1a5;
-}
 #saadaLogo {
   margin-bottom: 20px;
 }
@@ -462,9 +445,6 @@ body a:hover {
 }
 #saadaLogo .logo {
   height: 40px;
-}
-#signupForm .tab-pane {
-  margin-top: 25px;
 }
 #signupForm button {
   margin-top: 20px;
@@ -476,11 +456,6 @@ body a:hover {
 }
 #signup ::placeholder {
   font-size: 15px;
-}
-#eventDate {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 15px;
-  color: #495057;
 }
 #signup .btn:hover {
   color: #fbfbfb;
