@@ -482,6 +482,11 @@ body a:hover {
   font-size: 15px;
   color: #495057;
 }
+#signup .btn:hover {
+  color: #fbfbfb;
+  background-color: #00d1a5;
+  
+}
 /* Signup Form End */
 
 /* Responsive design */

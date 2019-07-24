@@ -15,7 +15,7 @@ $(window).scroll(function() {
   }
 });
 
-window.addEventListener('resize', function() {
+$(window).addEventListener('resize', function() {
   if (window.innerWidth > 767) {
     // change navbar left text color on scroll
     $(window).scroll(function() {
