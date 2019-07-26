@@ -89,6 +89,7 @@ body a:hover {
 /* Home Section */
 #home {
   margin: 0;
+  /* height: 100vh; */
 }
 #home .jumbotron {
   margin: 0;
@@ -97,11 +98,11 @@ body a:hover {
 #home .container-fluid {
   margin: 0;
   padding: 0;
+  background-color: #fbfbfb;
 }
 #home .row {
   padding: 0;
   margin: 0;
-  background-color: #fbfbfb;
 }
 #home .home-img {
   padding-left: 0;
@@ -146,15 +147,19 @@ body a:hover {
   font-family: 'Open Sans', sans-serif;
 }
 #home .signup a {
-  margin: auto;
+  /* margin: auto; */
 }
 /* Home Section end */
 
 /* Value Proposition Section */
 #value-prop {
-  padding: 20px 0 10px 0;
+  padding: 50px 0 50px 0;
+}
+#value-prop .container-fluid {
+  padding: 0;
 }
 #value-prop .section {
+  padding-top: 50px;
   padding-bottom: 50px;
 }
 #value-prop .section .col-md {
@@ -164,7 +169,8 @@ body a:hover {
   /* text-align: center; */
   font-size: 30px;
   padding: 20px 0;
-  font-weight: 400;
+  font-weight: 700;
+  color: #0a6dad;
 }
 #value-prop .section p {
   /* text-align: center; */
@@ -172,14 +178,23 @@ body a:hover {
   font-weight: 400;
 }
 #messaging-img {
-  height: 400px;
+  height: 80vh;
+  padding: 40px 0;
+}
+#value-prop .section-head {
+  text-align: center;
+}
+#value-prop .section-head h3 {
+  padding: 50px 0;
+  font-weight: 700;
+  color: #0a6dad;
 }
 #value-prop .card-columns {
   column-gap: 3em;
   padding: 0 2em;
   margin: auto;
-  margin-top: 50px;
   margin-bottom: 80px;
+  /* height: 50vh; */
 }
 #value-prop .card-columns .card {
   border: none;
@@ -194,14 +209,18 @@ body a:hover {
   cursor: default;
   box-shadow: 0px 20px 40px rgba(78, 79, 99, 0.2);
 }
+#value-prop .card-body {
+  height: 345px;
+}
 #value-prop .card-columns img {
   max-height: 40%;
   max-width: 40%;
   padding-bottom: 20px;
 }
 #value-prop .card-title {
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 700;
+  font-size: 18px;
+  color: #0a6dad;
 }
 #value-prop .card-text {
   font-size: 15px;
@@ -216,10 +235,11 @@ body a:hover {
   background-image: url('../img/pictures/concert-01.jpg');
   background-size: cover;
   background-position: center center;
-  padding-bottom: 40vh;
+  /* padding-bottom: 40vh; */
+  height: 95vh;
 }
 #usecase .usecasetab {
-  padding: 30px 30px 0 30px;
+  padding: 50px 30px 0 30px;
 }
 .usecasetitle {
   font-size: 36px;
@@ -242,7 +262,7 @@ body a:hover {
   color: #00d1a5;
 }
 #usecaseTabContent {
-  margin-top: 70px;
+  margin-top: 200px;
 }
 #usecase .tab-pane .col-md-6 {
   padding: 0;
@@ -265,17 +285,18 @@ body a:hover {
   padding: 0 0 70px 0;
 }
 #features .chatbot-info {
-  margin: 100px 100px 50px 100px;
+  margin: 100px 100px 0 100px;
   text-align: center;
 }
 #features .chatbot-info h3 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0 0 10px 0;
+  color: #0a6dad;
 }
 #features .chatbot-info p {
   font-size: 20px;
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 #features .card-columns {
   margin: 50px 0 30px 0;
@@ -303,7 +324,8 @@ body a:hover {
 }
 #features .card-title {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 700;
+  color: #0a6dad;
 }
 #features .card-text {
   font-size: 15px;
@@ -311,15 +333,22 @@ body a:hover {
 #features .section-head {
   text-align: center;
   padding: 20px 20px 50px 20px;
+  margin-top: 50px;
 }
 #features .section-head h3 {
   font-size: 30px;
-  font-weight: 500;
+  font-weight: 700;
   padding: 0;
+  color: #0a6dad;
+}
+#features .bonus-features {
+  /* height: 53vh; */
+  margin-left: 25px;
 }
 #features .bonus-features h5 {
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
+  color: #0a6dad;
 }
 #features .bonus-features p {
   font-size: 15px;
@@ -341,19 +370,22 @@ body a:hover {
 /* Features Section end */
 
 /* Contact Us */
+#contact-us {
+  height: 40vh;
+}
 #contact-us .row {
   margin-bottom: 100px;
 }
 #contact-us .row .col-md-6 {
-  margin: 0px 40px 0 20px;
+  margin: 0px 40px 0 50px;
 }
 #contact-us .row .contactus-buttons {
   margin-right: 100px;
 }
 #contact-us .row h3 {
   font-size: 40px;
-  font-weight: 200;
-  color: #0a6dad;
+  font-weight: 700;
+  color: #00d1a5;
 }
 #contact-us .row p {
   font-size: 20px;
@@ -469,6 +501,14 @@ body a:hover {
 #signup .input-group-text {
   font-size: 15px;
   color: #064167;
+}
+#signup .location .col-md-6 {
+  padding: 0;
+}
+.form-control:focus {
+  outline: none !important;
+  border:1px #00d1a5;
+  box-shadow: 0 0 5px #00d1a5;
 }
 /* Signup Form End */
 
@@ -743,6 +783,9 @@ body a:hover {
     padding: 0;
     text-align: center;
   }
+  #home .signup a {
+    margin: auto;
+  }
   #home .signup .btn {
     margin: auto;
     margin-top: 10px;
@@ -793,6 +836,7 @@ body a:hover {
     padding: 1.5em 1em;
     padding-bottom: 40px;
     width: 300px;
+    height: 200px;
   }
   #value-prop .card-title {
     font-size: 1.4em;
@@ -891,6 +935,7 @@ body a:hover {
   #contact-us .row .btn {
     margin-left: 0;
     width: 100%;
+    margin-bottom: 40px;
   }
   #callsales {
     margin-right: 10px;

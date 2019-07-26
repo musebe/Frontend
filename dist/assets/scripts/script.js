@@ -32,23 +32,23 @@ $(window).scroll(function() {
 $(document).ready(function() {
   $('#events-tab').on('click', function() {
     $('.usecaseBg').css({
-      background: "url('../img/pictures/concert-01.jpg')",
+      'background': "url('./assets/img/pictures/concert-01.jpg')",
       'background-size': 'cover',
-      'background-position': ' center center'
+      'background-position': ' center center',
     });
   });
   $('#entertainment-tab').on('click', function() {
     $('#usecase').css({
-      background: "url('../img/pictures/cinema-01.jpg')",
+      'background': "url('./assets/img/pictures/cinema-01.jpg')",
       'background-size': 'cover',
-      'background-position': ' center center'
+      'background-position': ' center center',
     });
   });
   $('#travel-tab').on('click', function() {
     $('#usecase').css({
-      background: "url('../img/pictures/travel-01.jpg')",
+      'background': "url('./assets/img/pictures/travel-01.jpg')",
       'background-size': 'cover',
-      'background-position': ' center center'
+      'background-position': ' center center',
     });
   });
 });
